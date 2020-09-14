@@ -1,0 +1,7 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2019-12-08,hortota01,Talen Horton-Tucker,359,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],1.5,Location.HOME,MINNESOTA_TIMBERWOLVES,17,0,148,0,1,0,1,0,0,0,0,1,0,0,0,0.0
+1,2019-12-22,hortota01,Talen Horton-Tucker,359,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],4.5,Location.HOME,DENVER_NUGGETS,7,0,171,0,0,0,0,0,0,0,0,1,1,0,0,1.7
+2,2020-08-06,hortota01,Talen Horton-Tucker,359,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],22.9,Location.AWAY,HOUSTON_ROCKETS,10,10,1163,4,6,0,2,2,4,0,2,1,4,0,3,7.3
+3,2020-08-08,hortota01,Talen Horton-Tucker,359,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],13.2,Location.AWAY,INDIANA_PACERS,11,10,988,4,7,2,4,0,0,1,0,0,0,1,1,7.1
+4,2020-08-10,hortota01,Talen Horton-Tucker,359,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],0.0,Location.HOME,DENVER_NUGGETS,7,0,358,0,1,0,1,0,0,0,0,0,0,0,0,-1.5
+5,2020-08-13,hortota01,Talen Horton-Tucker,359,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],30.299999999999997,Location.HOME,SACRAMENTO_KINGS,25,14,2041,6,15,2,5,0,0,1,3,3,3,0,2,9.0

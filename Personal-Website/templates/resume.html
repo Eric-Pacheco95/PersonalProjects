@@ -1,0 +1,221 @@
+{% extends "layout.html" %}
+{% block links %}
+
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/resume.css') }}">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+{% endblock %}
+
+{% block nav %}
+
+<div style='text-align:center'>
+    <img class='education-logo' src = "{{ url_for('static',filename='Images/education_icon.png') }}" height='100px' width='100px'>
+</div>
+<div data-aos="flip-right" data-aos-duration="12000">
+    <h1 class='resume-header'>Education</h1>
+</div>
+<div class='container'>
+    <div class='row'>
+        <svg style='width:100%; height:10px'>
+            <line x1=0 y1='0' x2='100%' y2='0'></line>
+        </svg>        
+        <div class='col-5'>
+            <div data-aos="zoom-in" data-aos-duration="12000">
+                <img class='uoft-logo' src="{{ url_for('static',filename='Images/uoft_logo.png') }}">
+            </div>
+            <div data-aos="zoom-in" data-aos-duration="12000">
+                <h1 class='duration-text'>January 2020 - July 2020</h1>
+            </div>
+            <div data-aos="slide-right" data-aos-duration="12000">
+                <h1 class='uoft-heading'>University of Toronto Mississauga, Canada</h1>
+            </div>
+            <div data-aos="zoom-in" data-aos-duration="12000">
+                <h1 class='role-text'>Data Analytics Bootcamp - Certificate</h1>
+            </div>
+        </div>
+        <div class='col-7'>
+            <div data-aos="zoom-in" data-aos-duration="12000">
+                <p class='description-text'>
+                    Fast paced, 6 month dynamic program which covered skills specifically tailored towards the data science job market. Specific skills learned were:
+                </p>
+                <ul class='bootcamp-skills'>
+                    <li>Advanced Excel - VBA, Pivot Tables</li>
+                    <li>Python Programming - Numpy, Pandas, Matplotlib, API Interactions</li>
+                    <li>Databases - PostgreSQL, MongoDB</li>
+                    <li>Front-End Technologies - HTML/CSS, Javascript(D3.js, Leaflet.js), Dashboarding</li>
+                    <li>Business Intelligence Software - Tableau</li>
+                    <li>Machine Learning - Keras, Tensorflow</li>
+                    <li>Big Data - Cloud Technologies(AWS services, Hadoop)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class='row'>
+        <svg style='width:100%; height:10px'>
+            <line x1=0 y1='0' x2='100%' y2='0'></line>
+        </svg>
+        <div class='col-5'>
+            <div data-aos="zoom-in" data-aos-duration="12000">
+                <img class='uoft-logo' src="{{ url_for('static',filename='Images/uoft_logo.png') }}">
+            </div>
+            <div data-aos="zoom-in" data-aos-duration="12000">
+                <h1 class='duration-text'>January 2013 - July 2018</h1>
+            </div>
+            <div data-aos="slide-right" data-aos-duration="12000">
+                <h1 class='uoft-heading'>University of Toronto Mississauga, Canada</h1>
+            </div>
+            <div data-aos="zoom-in" data-aos-duration="12000">
+                <h1 class='role-text'>Honors Bachelor of Science</h1>
+            </div>
+        </div>
+        <div class='col-7'>
+            <div data-aos="zoom-in" data-aos-duration="12000">
+                <p class='description-text'>
+                    Finished Degree with major in chemistry, and minors in environmental science and anthropology. 
+                    Core courses were focused on organic chemistry and analytical lab work.
+                </p>
+                <ul class='bootcamp-skills'>
+                    <li>Introduction to Applied Statistics - This course introduced the basic concepts, logic, and issues that form statistical reasoning. Topics included descriptive
+                    statistics, exploratory data analysis, elementary probability, sampling distributions, point and interval estimation,
+                    hypothesis testing for normal and binomial data, and regression analysis </li>
+                    <li>Organic Chemistry Courses - Learned to analytically break down problems into smaller solveable problems. A point of interest in this course was the logic and insight needed to solve difficult problems.</li>
+                </ul>
+         </div>
+        </div>
+    </div>
+</div>
+<div data-aos="zoom-in" data-aos-duration="12000">
+    <div style='text-align:center'>
+        <img class='work-logo' src = "{{ url_for('static',filename='Images/work_icon.png') }}" height='100px' width='100px'>
+    </div>
+</div>
+<div data-aos="flip-right" data-aos-duration="12000">
+    <h1 class='resume-header'>Work Experience</h1>
+</div>
+<div class='container'>
+    <div class='row'>
+        <svg style='width:100%; height:10px'>
+            <line x1=0 y1='0' x2='100%' y2='0'></line>
+        </svg>        
+        <div class='col-5'>
+            <div data-aos="fade-in" data-aos-duration="12000">
+                <img class='veolia-logo' src="{{ url_for('static',filename='Images/veolia_logo.png') }}">
+            </div>
+            <div data-aos="fade-in" data-aos-duration="12000">
+                <h1 class='duration-text'>January 2020 - July 2020</h1>
+            </div>
+            <div data-aos="slide-right" data-aos-duration="12000">
+                <h1 class='veolia-heading'>Mississauga, Canada</h1>
+            </div>
+            <div data-aos="fade-in" data-aos-duration="12000">
+                <h1 class='role-text'>Environmental Specialist</h1>
+            </div>
+        </div>
+        <div class='col-7'>
+            <div data-aos="fade-in" data-aos-duration="12000">
+                <div class='veolia-skills'>
+                    <ul class='veolia-skill'>
+                        <li>Responsible for classifying all pharmaceutical and hazardous
+                            waste produced on site, creating a profile for each waste stream,
+                            and disposing of each waste stream in alignment with Ministry of
+                            Transportation guidelines</li>
+                        <li>Detailed Records of each disposal were required for reporting to
+                            Glaxo-Smith Kline and potential audits</li>
+                        <li>Received 2019 Service Excellence Award from BGIS for
+                            additional support in transition period from BGIS to Veolia</li>
+                        <li>Successfully worked with GSKs quality assurance team to improve
+                            previous standard operating procedures, while also implementing
+                            new procedures</li>
+                        <li>Identified actionable business insights by analyzing data,
+                            procedures, and possible new options to produce cost savings</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div data-aos="zoom-in" data-aos-duration="12000">
+    <div style='text-align:center'>
+        <img id='skills' class='skills-logo' src = "{{ url_for('static',filename='Images/skills_icon.png') }}" height='150px' width='150px'>
+    </div>
+</div>
+<div data-aos="flip-right" data-aos-duration="12000">
+    <h1 class='resume-header'>Skills</h1>
+</div>
+<div class='container'>
+    <div class='row'>
+        <svg style='width:100%; height:10px'>
+            <line x1=0 y1='0' x2='100%' y2='0'></line>
+        </svg>      
+    </div>
+    <div class='row'>
+        <div class=col-6>
+            <div data-aos="flip-right" data-aos-duration="12000">
+                <div class='full-skill'>
+                    <img src="{{ url_for('static',filename='Images/excel_icon.png') }}" height='90px' width='150px' style='float:left'>
+                    <h3 class='skills-text'>Advanced Excel</h3>
+                    <h3 class='skill-link'><a href='https://github.com/Eric-Pacheco95/stock-data-analysis-vba'>VBA Scripting</a></h3>
+                    <h3 class='skill-link'><a href='https://github.com/Eric-Pacheco95/stock-data-analysis-vba'>Pivot Tables</a></h3>
+                </div>
+            </div>
+            <div data-aos="flip-right" data-aos-duration="12000">
+                <div class='full-skill'>
+                    <img src="{{ url_for('static',filename='Images/database_icon.png') }}" height='90px' width='150px' style='float:left'>
+                    <h3 class='skills-text'>Databases</h3>
+                    <h3 class='skill-link'><a href='https://github.com/Eric-Pacheco95/employee-database-sql'>PostgreSQL</a></h3>
+                    <h3 class='skill-link'><a href='https://github.com/Eric-Pacheco95/oil-metrics-ETL'>Extract-Transform-Load</a></h3>
+                    <h3 class='skill-link'><a href='#'>MongoDB</a></h3>
+                    <h3 class='skill-link' style='margin-left:150px;'><a href='https://github.com/Eric-Pacheco95/hawaii-climate-analysis-sqlalchemy'>ORMs(SQLalchemy)</a></h3>
+                </div>
+            </div>
+            <div data-aos="flip-right" data-aos-duration="12000">
+                <div class='full-skill'>
+                    <img src="{{ url_for('static',filename='Images/python_icon.png') }}" height='90px' width='100px' style='float:left; margin-left:28px; margin-right:22px'>
+                    <h3 class='skills-text'>Python</h3>
+                    <h3 class='skill-link'><a href='https://github.com/Eric-Pacheco95/video-game-analysis-pandas'>Pandas</a></h3>
+                    <h3 class='skill-link'><a href='https://github.com/Eric-Pacheco95/tumor-treatments-matplotlib'>Matplotlib</a></h3>
+                    <h3 class='skill-link'><a href='#'>Numpy</a></h3>
+                    <h3 class='skill-link' style='margin-left:150px;'><a href='http://bellybuttonbiodiversity-dash.herokuapp.com/'>Flask</a></h3>
+                    <h3 class='skill-link' style='margin-left:150px;'><a href='https://github.com/Eric-Pacheco95/weather-data-webpage'>API Interactions</a></h3>
+                    <h3 class='skill-link' style='margin-left:150px;'><a href=''>Beautiful Soup/Selenium</a></h3>
+                </div>
+            </div>
+        </div>
+        <div class=col-6>
+            <div data-aos="flip-right" data-aos-duration="12000">
+                <div class='full-skill'>
+                    <img src="{{ url_for('static',filename='Images/bi_icon.png') }}" height='90px' width='90px' style='float:left'>
+                    <h3 class='skills-text' style='margin-left:150px;'>Business Intelligence</h3>
+                    <h3 class='skill-link' style='margin-left:150px;'><a href='https://github.com/Eric-Pacheco95/citibike-tableau-visualization'>Tableau</a></h3>
+                    <h3 class='skill-link' style='margin-left:150px;'><a href='#'>Power BI</a></h3>
+                </div>
+            </div>
+            <div data-aos="flip-right" data-aos-duration="12000">
+                <div class='full-skill'>
+                    <img src="{{ url_for('static',filename='Images/javascript_icon.png') }}" height='90px' width='90px' style='float:left'>
+                    <h3 class='skills-text' style='margin-left:150px;'>Web Technologies</h3>
+                    <h3 class='skill-link' style='margin-left:150px;'><a href='https://github.com/Eric-Pacheco95/weather-data-webpage'>HTML/CSS</a></h3>
+                    <h3 class='skill-link' style='margin-left:150px;'><a href='https://github.com/Eric-Pacheco95/earthquake-map-leaflet'>Leaflet.js</a></h3>
+                    <h3 class='skill-link' style='margin-left:150px;'><a href='https://github.com/Eric-Pacheco95/healthcare-poverty-d3.js'>d3.js</a></h3>
+                    <h3 class='skill-link' style='margin-left:150px;'><a href=''>React</a></h3>
+                </div>
+            </div>
+            <div data-aos="flip-right" data-aos-duration="12000">
+                <div class='full-skill'>
+                    <img src="{{ url_for('static',filename='Images/ai_logo.png') }}" height='90px' width='100px' style='float:left'>
+                    <h3 class='skills-text' style='margin-left:150px;'>Machine Learning</h3>
+                    <h3 class='skill-link' style='margin-left:150px;'><a href='https://github.com/Eric-Pacheco95/car-brand-detection-cnn'>Keras</a></h3>
+                    <h3 class='skill-link' style='margin-left:150px;'><a href='https://github.com/Eric-Pacheco95/car-brand-detection-cnn'>Tensorflow</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="{{ url_for('static', filename='js/resume_animation.js') }}"></script>
+{% endblock %}

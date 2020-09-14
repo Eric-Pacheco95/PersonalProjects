@@ -1,0 +1,58 @@
+{% extends "layout.html" %}
+{% block links %}
+
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/projects.css') }}">
+
+{% endblock %}
+
+{% block nav %}
+
+<div class="container">
+    <div class='row'>
+        <div class='col-lg-3 col-sm-6'>
+            <div class="card"><img src="https://i.pinimg.com/originals/22/01/7f/22017fffce9f79f62d6f0a81e7c36057.jpg" />
+                <div class="info">
+                    <h1>Car Brand Detection</h1>
+                    <p>Created a model for car brand prediction using convolutional neural networks</p>
+                    <a href='https://github.com/Eric-Pacheco95/car-brand-detection-cnn' target="_blank"><button>See Project</button></a>
+                </div>
+            </div>
+        </div>
+        <div class='col-lg-3 col-sm-6' style='margin-top:15px;'>
+            <div class="card"><img
+                    src="https://images.unsplash.com/photo-1503249023995-51b0f3778ccf?auto=format&amp;fit=crop&amp;w=311&amp;q=80&amp;ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" />
+                <div class="info">
+                    <h1>Police Brutality Dashboard</h1>
+                    <p>Dashboard visualization of police brutality killings using the washington post police killings database</p>
+                    <a href='https://github.com/Eric-Pacheco95/police-brutality-dashboard' target="_blank"><button>See Project</button></a>
+                </div>
+            </div>
+        </div>
+        <div class='col-lg-3 col-sm-6'>
+            <div class="card"><img
+                    src="https://content.fortune.com/wp-content/uploads/2019/08/GettyImages-933052786-1.jpg?resize=750,500" />
+                <div class="info">
+                    <h1>Stock vs. Housing Investing Analysis</h1>
+                    <p>Analysis of stock market and housing market trends during recession periods</p>
+                    <a href='https://github.com/Eric-Pacheco95/stock-housing-analysis' target="_blank"><button>See Project</button></a>
+                </div>
+            </div>
+        </div>
+        <div class='col-lg-3 col-sm-6' style='margin-top:15px;'>
+            <div class="card"><img
+                    src="https://e7n9s5t9.stackpathcdn.com/fanduel-sportsbook-promo/wp-content/uploads/2019/05/fanduel-sportsbook-nj.jpg" />
+                <div class="info">
+                    <h1>Fanduel Lineup Creator</h1>
+                    <p>Model which can predict optimal fanduel lineups, based upon past 2016-2020 nba data and many feature
+                    engineering/extraction techniques</p>
+                    <a href='https://github.com/Eric-Pacheco95/fanduel-lineup-creator' target="_blank"><button>See Project</button></a>
+                    <h1 style='color:red; margin-top:10px;'>In Progress</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+<script src="{{ url_for('static', filename='js/page_load.js') }}"></script>
+{% endblock %}

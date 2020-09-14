@@ -1,0 +1,7 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2019-11-12,bowenbr02,Brian Bowen,94,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],2.0,Location.HOME,OKLAHOMA_CITY_THUNDER,20,2,155,1,2,0,0,0,0,0,0,0,0,0,0,1.0
+1,2019-11-16,bowenbr02,Brian Bowen,94,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],1.2,Location.HOME,MILWAUKEE_BUCKS,16,0,286,0,1,0,0,0,0,0,1,0,0,0,0,-0.4
+2,2019-11-18,bowenbr02,Brian Bowen,94,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],3.0,Location.AWAY,BROOKLYN_NETS,2,0,140,0,1,0,1,0,0,0,0,0,0,1,0,0.0
+3,2020-02-25,bowenbr02,Brian Bowen,94,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],4.4,Location.HOME,CHARLOTTE_HORNETS,3,2,254,1,1,0,0,0,0,0,2,0,0,0,0,2.3
+4,2020-03-06,bowenbr02,Brian Bowen,94,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],3.8,Location.AWAY,CHICAGO_BULLS,4,0,893,0,4,0,1,0,0,1,3,0,0,0,1,-3.0
+5,2020-08-14,bowenbr02,Brian Bowen,94,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],2.0,Location.HOME,MIAMI_HEAT,15,2,136,1,1,0,0,0,0,0,0,0,0,0,0,1.3

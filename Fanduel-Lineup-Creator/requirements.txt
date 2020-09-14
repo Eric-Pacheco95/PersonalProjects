@@ -1,0 +1,12 @@
+Flask==1.1.2
+gunicorn==20.0.4
+Jinja2==2.11.2
+numpy==1.18.4
+basketball-reference-web-scraper==4.11.0
+unicodecsv==0.14.1
+xgboost==1.2.0
+pandas==0.25.3
+psycopg2==2.8.5
+joblib==0.16.0
+scikit-learn==0.23.1
+SQLAlchemy==1.3.18

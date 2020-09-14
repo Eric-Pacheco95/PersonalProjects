@@ -1,0 +1,2 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2017-04-12,jonesda02,Dahntay Jones,415,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],11.9,Location.HOME,TORONTO_RAPTORS,27,9,720,3,8,0,2,3,4,1,1,1,0,0,1,4.5

@@ -1,0 +1,2 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2018-11-28,davisty01,Tyler Davis,195,[<Position.CENTER: 'CENTER'>],1.2,Location.HOME,CLEVELAND_CAVALIERS,5,0,54,0,1,0,0,0,0,1,0,0,0,0,0,0.0

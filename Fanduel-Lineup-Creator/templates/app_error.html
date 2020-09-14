@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class='container'>
+    <div class='app-box'>
+        <img src="{{ url_for('static', filename='images/app_banner.png') }}">
+        <h2 class='app-title'>NBA Fanduel Lineup Optimizer</h1>
+        <h6 class='app-description-error'>File error - please upload valid file (see instructions tab)</h3>
+        
+        <form action='/' method='POST' enctype='multipart/form-data'>
+            <div class='form-group'>
+                <div class='custom-file'>
+                    <input type='file' class='custom-file-input' name='csv' id='csv'>
+                    <label class='custom-file-label' for='csv'>Select csv file...</label>
+                </div>
+            </div>
+
+            <button type='submit' class='btn btn-primary'>Submit</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,94 @@
+body {
+    background-color:#FFFAF0;
+}
+
+.name {
+    text-align: center;
+    margin-bottom:0px;
+    font-weight: bold;
+    margin-left: 20%;
+}
+
+.description {
+    text-align: center;
+    font-size: 10px;
+    margin-left: 20%;
+}
+
+.navi-link{
+    color:white;
+    padding:15px;
+}
+
+.navi-link:hover{
+    text-decoration: underline;
+    color:white;
+}
+
+.navbar-nav {
+    position:relative;
+    margin-left:60%;
+}
+
+.profile-picture {
+    width:325px;
+    height:300px;
+    opacity:0
+}
+
+.container {
+    position:relative;
+    margin:auto;
+    width: 900px;
+    margin-top:50px;
+}
+
+.about-me {
+    font-size:70px;
+    color:#2C3B42;
+    font-family: 'Playfair Display', serif;
+    margin-left:15px;
+    opacity:0
+}
+
+.circle-links {
+    display:inline-block;
+    width:900px;
+}
+
+.circle-link {
+    margin-left:15px;
+    opacity:0;
+}
+
+.circle-link svg:hover {
+    opacity:0.5;
+}
+
+.circle-link:hover {
+    text-decoration: none;
+}
+
+.circle-link-text {
+    font-size:20px;
+}
+
+.intro-small-text {
+    color:#2C3B42;
+    font-size:25px;
+    font-family: Roboto, sans-serif;
+}
+
+.intro-big-text {
+    color:#2C3B42;
+    font-size:50px;
+    font-family: 'Bangers', cursive;
+}
+
+.intro-heading {
+    opacity:0;
+}
+
+.intro-description {
+    opacity:0;
+}

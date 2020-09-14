@@ -1,0 +1,2 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2018-04-11,perkike01,Kendrick Perkins,630,[<Position.CENTER: 'CENTER'>],9.2,Location.HOME,NEW_YORK_KNICKS,19,3,872,1,2,0,0,1,2,0,1,2,1,0,1,2.9

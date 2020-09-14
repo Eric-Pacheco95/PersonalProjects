@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(21, 159, 209)
+}
+
+.nav-links {
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom:15px;
+}
+
+.nav-link {
+    display:inline;
+    font-size:30px;
+    color: rgb(7, 1, 41);
+}
+
+.nav-link:hover{
+    text-decoration: none;
+}
+
+.app-box {
+    background-color: white;
+    width: 1000px;
+    border-color: rgb(7, 1, 41);
+    border-width: 6px;
+    margin: 0 auto;
+    text-align:center;
+    padding:20px;
+    border-style:solid;
+}
+
+.app-description-error {
+    color:red;
+}
+
+.btn {
+    padding:10px;
+}
+
+.loader-wrapper {
+    width: 100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:rgb(21, 159, 209);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.loader {
+    display: inline-block;
+    width:30px;
+    height:30px;
+    position:relative;
+    border:4px solid;
+    animation: loader 2s infinite ease;
+}
+
+.container {
+    margin-top:10%;
+}
+
+.instructions-header {
+    background-color: rgb(8, 8, 73);
+    padding:20px;
+}
+
+.instructions-title {
+    color: white;
+    text-align:center;
+    font-size:50px;
+}
+
+.instructions-descriptions {
+    margin-top:3%;
+    color: white;
+    text-align:center;
+    font-size:15px;
+    margin-left:20%;
+    margin-right:20%;
+    line-height:30px;
+}
+
+.optimizer-link {
+    margin-top:20px;
+    text-align:center;
+}
+.instructions-details {
+    background-color:white;
+    padding:80px;
+}
+
+.step {
+    text-align:center;
+    color: rgb(8, 8, 73);
+}
+
+.step-details {
+    margin-top:40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align:center;
+}
+
+.step-img {
+    height:600px;
+    width:900px;
+    margin-top:5%;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+}
+

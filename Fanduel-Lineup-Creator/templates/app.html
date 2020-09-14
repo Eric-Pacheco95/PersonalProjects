@@ -1,0 +1,29 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class='container'>
+    <div class='nav-links'>
+        <span><a  class='nav-link' href="{{ url_for('home') }}">Lineup Optimizer</a></span>
+        <span><a class='nav-link' href="{{ url_for('instructions') }}">Instructions</a></span>
+    </div>
+    <div class='app-box'>
+        <img src="{{ url_for('static', filename='images/app_banner.png') }}">
+        <h2 class='app-title'>NBA Fanduel Lineup Optimizer</h1>
+        <h6 class='app-description'>Upload contest (see instructions tab for more info)</h3>
+        
+        <form action='/' method='POST' enctype='multipart/form-data'>
+
+            <div class='form-group'>
+                <div class='custom-file'>
+                    <input type='file' class='custom-file-input' name='csv' id='csv'>
+                    <label class='custom-file-label' for='csv'>Select csv file...</label>
+                </div>
+            </div>
+
+            <button type='submit' class='btn btn-primary'>Submit</button>
+        </form>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/page_load.js') }}"></script>
+
+{% endblock %}

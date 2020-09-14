@@ -1,0 +1,37 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class='instructions-header'>
+    <h1 class='instructions-title'>Fanduel Lineup Optimizer Instructions</h1>
+    <h5 class='instructions-descriptions'>Follow these 4 easy steps to use the fanduel lineup optimizer and retrieve an optimal lineup. When you are done following the steps below, click this link to use the optimizer.</h3>
+    <h1 class='optimizer-link'><a href="{{ url_for('home')}}">Use Fanduel Optimizer</a></h1>
+</div>
+<div class='instructions-details'>
+    <h3 class='step'>Step 1:</h3>
+    <div class='step-details'>
+        <span>First visit the</span>
+        <span><a href='https://www.fanduel.com'>Fanduel</a></span>
+        <span>website and choose an NBA contest you wish to participate in. You must have a registered valid account on fanduel to complete this step.</span>
+    </div>
+    <img class='step-img' src="{{ url_for('static',filename='images/fanduel_contests.png')}}">
+    <hr>
+    <h3 class='step'>Step 2:</h3>
+    <div class='step-details'>
+        <span>Visit the</span>
+        <span><a href='https://www.fanduel.com/upcoming'>Upcoming</a></span>
+        <span>tab, find the slate you want to edit and select 'CSV Edit. Then download the csv to your computer.'</span>
+    </div>
+    <img class='step-img' src="{{ url_for('static',filename='images/csv_edit.png')}}">
+    <hr>
+    <h3 class='step'>Step 3:</h3>
+    <div class='step-details'>
+        <span>After downloading your csv, select the full lineup including all rows from Player ID to Injury Indicator. Open a new excel worksheet and copy paste the full lineup into the new worksheet. Finally save the worksheet as a csv.</span>
+    </div>
+    <img class='step-img' src="{{ url_for('static',filename='images/save_csv.png')}}">
+    <hr>
+    <h3 class='step'>Step 4:</h3>
+    <div class='step-details'>
+        <span>After you have obtained your full lineup for the contest, return to the optimizer page and insert your csv file. Then your good to go!</span>
+    </div>
+    <img class='step-img' src="{{ url_for('static',filename='images/use_optimizer.png')}}">
+</div>
+{% endblock %}

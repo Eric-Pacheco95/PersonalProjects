@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+
+{% block links %}
+
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+{% endblock %}
+
+{% block nav %}
+
+<div class='container'>
+    <div class='row'>
+        <div class='col-lg-6 col-sm-12'>
+            <img class='profile-picture' src=' {{ url_for("static",filename="Images/profile_picture_graysale.png") }} '>
+        </div>
+        <div class='col-lg-6 col-sm-12'>
+            <h1 class='about-me'>ABOUT ME</h1>
+            <div class='circle-links'>
+                <a class='circle-link' href="{{ url_for('Resume')}}">
+                    <svg height='100' width='100'>
+                        <circle cx='50' cy='50' r='50' fill='rgba(232, 53, 86, 1)'></circle>
+                        <text class='circle-link-text' x="50%" y="60%" text-anchor="middle" fill='white'>RESUME</text>
+                    </svg>
+                </a>
+                <a class='circle-link' href="{{ url_for('Resume')}}#skills">
+                    <svg height='100' width='100'>
+                        <circle cx='50' cy='50' r='50' fill='#5F9EA0'></circle>
+                        <text class='circle-link-text' x="50%" y="60%" text-anchor="middle" fill='white'>MY SKILLS</text>
+                    </svg>
+                </a>
+                <a class='circle-link' href="{{ url_for('Projects')}}">
+                    <svg height='100' width='100'>
+                        <circle cx='50' cy='50' r='50' fill='#556B2F'></circle>
+                        <text class='circle-link-text' x="50%" y="60%" text-anchor="middle" fill='white'>MY WORK</text>
+                    </svg>
+                </a>
+            </div>
+        </div>   
+    </div>
+    <div class='row'>
+        <div class='col-12'>
+            <h1 class='intro-heading'>
+                <span class='intro-big-text'>HELLO</span>
+                <span class='intro-small-text'>my name is</span>
+                <span class='intro-big-text'>ERIC PACHECO</span>
+                <span class='intro-small-text'>and I am a</span>
+                <span class='intro-big-text'>MULTIDISCIPLINARY DATA ANALYST</span>
+            </h1>
+            <div class='intro-description'>
+                <p>
+                    I am a data analyst who is passionate about determining actionable business insights from the underlying data. 
+                    I believe the role of the data analyst is crucial to business success because it can assist in determining customer trends, identifying new business opportunities,
+                    and predicting future patterns that can affect company outlooks.
+                </p>
+                <p>
+                    I graduated from the University of Toronto Missisauga with a bachelor of science degree majoring in chemistry. 
+                    After graduating I found work in the environmental science field which actually led me to my data science journey! One of my co-workers
+                    was a teaching assistant for the university of toronto data analytics bootcamp. After contemplating for a month and trying some introductory python
+                    on the side, I decided this was my next goal to work towards! My data science path has been very exciting, and I love the process of learning new things. I continue
+                    to learn new things everyday, and I hope to produce the best work that I can!
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+<script src="{{ url_for('static', filename='js/home_animation.js') }}"></script>
+{% endblock %}

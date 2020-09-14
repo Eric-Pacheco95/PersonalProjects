@@ -1,0 +1,4 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2017-03-03,harpeju01,Justin Harper,313,[<Position.POWER_FORWARD: 'POWER FORWARD'>],0.19999999999999996,Location.HOME,NEW_YORK_KNICKS,19,0,286,0,1,0,1,0,0,0,1,0,0,0,1,-1.4
+1,2017-03-04,harpeju01,Justin Harper,313,[<Position.POWER_FORWARD: 'POWER FORWARD'>],12.3,Location.HOME,DETROIT_PISTONS,8,9,1356,4,10,1,5,0,0,2,2,1,0,0,3,2.5
+2,2017-03-06,harpeju01,Justin Harper,313,[<Position.POWER_FORWARD: 'POWER FORWARD'>],4.5,Location.HOME,MILWAUKEE_BUCKS,16,3,237,1,1,1,1,0,0,0,0,1,0,0,0,3.4

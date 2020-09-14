@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+{% block links %}
+
+<link rel='stylesheet' type='text/css' href="{{ url_for('static',filename='css/form.css') }}">
+<link href="https://fonts.googleapis.com/css2?family=Rancho&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+{% endblock %}
+
+{% block nav %}
+
+<div class="alert alert-success">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>Success!</strong> Message sent to pacheco.eric.anthony@gmail.com
+</div>
+
+<div class='container'>
+    <div class='row'>
+        <div class='col-5'>
+            <h1 class='contact'>CONTACT</h1>
+            <div class='contact-methods'>
+                <div class='contact-images'>
+                    <a class='contact-image1' href='https://www.linkedin.com/in/eric-pacheco-ep/'><img src='{{ url_for("static",filename="Images/linkedin.png")}}' target='_blank' height='50' width='50'></a>
+                    <a class='contact-image2' href='https://github.com/Eric-Pacheco95'><img src='{{ url_for("static",filename="Images/github-logo.png")}}' target='_blank' height='50' width='50'></a>
+                </div>
+                <h2 class ='contact-method'>Cell: 647-502-9962</h2>
+                <h2 class ='contact-method'>Email: pacheco.eric.anthony@gmail.com</h2>
+            </div>
+        </div>
+        <div class='col-7 form-col'>
+            <form class='form-style' action="" method='post'>
+                {{ form.hidden_tag() }}
+                <ul class='contact-form'>
+                    <li class = 'contact-form-item'>
+                        {{ form.name(size=32,placeholder='Name') }}
+                    </li>
+                    <li class = 'contact-form-item'>
+                        {{ form.email(size=32, placeholder='Email') }}
+                    </li>
+                    <li class = 'contact-form-item contact-form-message' >
+                        {{ form.message(placeholder='Message') }}
+                    </li>
+                    <li class='contact-form-submit'> {{ form.submit() }} </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+<script src="{{ url_for('static', filename='js/page_load.js') }}"></script>
+{% endblock %}

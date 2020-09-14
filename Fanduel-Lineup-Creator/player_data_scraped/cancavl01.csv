@@ -1,0 +1,15 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2019-10-31,cancavl01,Vlatko Čančar,134,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],0.0,Location.AWAY,NEW_ORLEANS_PELICANS,18,0,118,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+1,2019-12-22,cancavl01,Vlatko Čančar,134,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],4.7,Location.AWAY,LOS_ANGELES_LAKERS,13,2,124,0,1,0,0,2,2,1,0,1,0,0,0,2.7
+2,2019-12-25,cancavl01,Vlatko Čančar,134,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],0.0,Location.HOME,NEW_ORLEANS_PELICANS,18,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+3,2019-12-31,cancavl01,Vlatko Čančar,134,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],0.0,Location.AWAY,HOUSTON_ROCKETS,10,0,108,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+4,2020-01-04,cancavl01,Vlatko Čančar,134,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],1.5,Location.AWAY,WASHINGTON_WIZARDS,29,0,155,0,0,0,0,0,0,0,0,1,0,0,0,0.7
+5,2020-01-12,cancavl01,Vlatko Čančar,134,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],0.0,Location.HOME,LOS_ANGELES_CLIPPERS,12,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+6,2020-01-15,cancavl01,Vlatko Čančar,134,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],2.0,Location.HOME,CHARLOTTE_HORNETS,3,2,135,1,2,0,1,0,0,0,0,0,0,0,0,0.6
+7,2020-01-22,cancavl01,Vlatko Čančar,134,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],7.699999999999999,Location.AWAY,HOUSTON_ROCKETS,10,3,199,1,1,1,1,0,0,0,1,1,1,0,1,3.7
+8,2020-01-24,cancavl01,Vlatko Čančar,134,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],1.2,Location.AWAY,NEW_ORLEANS_PELICANS,18,0,65,0,1,0,1,0,0,0,1,0,0,0,0,-0.4
+9,2020-02-04,cancavl01,Vlatko Čančar,134,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],5.2,Location.HOME,PORTLAND_TRAIL_BLAZERS,24,4,310,2,3,0,0,0,0,0,1,0,0,0,0,2.6
+10,2020-02-05,cancavl01,Vlatko Čančar,134,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],9.8,Location.AWAY,UTAH_JAZZ,28,4,993,1,3,0,2,2,2,2,2,0,0,1,2,1.4
+11,2020-02-28,cancavl01,Vlatko Čančar,134,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],4.4,Location.AWAY,LOS_ANGELES_CLIPPERS,12,2,272,1,4,0,1,0,0,2,0,0,0,0,0,0.6
+12,2020-03-01,cancavl01,Vlatko Čančar,134,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],0.0,Location.HOME,TORONTO_RAPTORS,27,0,121,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+13,2020-03-03,cancavl01,Vlatko Čančar,134,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],0.0,Location.HOME,GOLDEN_STATE_WARRIORS,9,0,55,0,0,0,0,0,0,0,0,0,0,0,0,0.0

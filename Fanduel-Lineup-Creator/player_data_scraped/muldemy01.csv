@@ -1,0 +1,8 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2020-02-27,muldemy01,Mychal Mulder,564,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],6.8,Location.HOME,LOS_ANGELES_LAKERS,13,2,1323,1,6,0,5,0,0,0,4,0,0,0,0,-0.6
+1,2020-02-29,muldemy01,Mychal Mulder,564,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],21.2,Location.AWAY,PHOENIX_SUNS,23,14,2020,5,12,3,8,1,1,2,4,0,0,0,0,8.6
+2,2020-03-01,muldemy01,Mychal Mulder,564,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],26.9,Location.HOME,WASHINGTON_WIZARDS,29,17,1871,6,10,3,7,2,3,0,2,1,1,1,0,13.0
+3,2020-03-03,muldemy01,Mychal Mulder,564,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],21.1,Location.AWAY,DENVER_NUGGETS,7,15,2087,5,11,5,10,0,0,1,2,3,0,0,2,9.1
+4,2020-03-05,muldemy01,Mychal Mulder,564,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],14.100000000000001,Location.HOME,TORONTO_RAPTORS,27,8,1432,3,9,2,8,0,0,0,3,1,1,0,2,2.7
+5,2020-03-07,muldemy01,Mychal Mulder,564,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],23.7,Location.HOME,PHILADELPHIA_76ERS,22,18,1908,5,10,3,7,5,6,0,1,3,0,0,0,13.8
+6,2020-03-10,muldemy01,Mychal Mulder,564,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],6.8,Location.HOME,LOS_ANGELES_CLIPPERS,12,3,1581,1,9,0,7,1,2,0,4,0,0,0,1,-3.9

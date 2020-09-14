@@ -1,0 +1,4 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2018-03-11,warneja01,Jameel Warney,802,[<Position.POWER_FORWARD: 'POWER FORWARD'>],9.8,Location.HOME,HOUSTON_ROCKETS,10,5,480,2,4,0,0,1,2,3,1,0,0,0,0,4.6
+1,2018-03-13,warneja01,Jameel Warney,802,[<Position.POWER_FORWARD: 'POWER FORWARD'>],10.6,Location.AWAY,NEW_YORK_KNICKS,19,8,692,4,7,0,0,0,1,1,2,0,0,0,1,4.2
+2,2018-03-16,warneja01,Jameel Warney,802,[<Position.POWER_FORWARD: 'POWER FORWARD'>],6.4,Location.AWAY,TORONTO_RAPTORS,27,4,438,1,1,0,0,2,2,0,2,0,0,0,0,4.3

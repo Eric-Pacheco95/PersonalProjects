@@ -1,0 +1,113 @@
+.resume-header {
+    font-family: Roboto, sans-serif;
+    text-align:center;
+    color:#2C3B42;
+    font-size:50px;
+}
+
+line {
+    stroke:black;
+    stroke-width: 10;
+    stroke-linecap: round;
+}
+
+.uoft-logo {
+    height:150px;
+    width:300px;
+    margin-left:0;
+}
+
+.duration-text {
+    margin-top:0px;
+    font-size:20px;
+    color:rgb(161, 161, 161);
+    margin-left:6%;
+}
+
+.uoft-heading {
+    background-color: rgb(5, 10, 82);
+    letter-spacing: 0.25px;
+    font-size:30px;
+    font-family: Roboto, sans-serif;
+    color:white;
+    text-align:center;
+    margin-top:5px;
+    margin-left:6%;
+}
+
+.role-text {
+    margin-top:0px;
+    font-size:25px;
+    color:#2C3B42;
+    margin-left:6%;
+}
+
+.education-logo {
+    margin-top:50px;
+}
+
+.col-6 {
+    margin-top:0;
+}
+
+.container {
+    margin-top:0;
+}
+
+.description-text {
+    margin-top:50px;
+    color:rgb(5, 10, 82);
+}
+
+.bootcamp-skills li {
+    color:rgb(5, 10, 82);
+}
+
+.work-logo {
+    margin-top:100px;
+}
+
+
+.veolia-logo {
+    height:125px;
+    width:300px;
+    margin-left:0;
+}
+
+.veolia-heading {
+    background-color: rgb(223, 3, 3);
+    letter-spacing: 0.25px;
+    font-size:30px;
+    font-family: Roboto, sans-serif;
+    color:white;
+    text-align:center;
+    margin-top:5px;
+    margin-left:6%;
+}
+
+.veolia-skill li {
+    color:rgb(223, 3, 3);
+}
+
+.veolia-skills {
+    margin-top:40px;
+}
+
+.skills-logo {
+    margin-top:100px;
+}
+
+.skills-text {
+    font-size:20px;
+    color:#2C3B42;
+    margin-left:5px;
+    margin-top:30px;
+}
+
+.skill-link {
+    font-size: 15px;
+}
+
+.full-skill {
+    margin-top:100px;
+}

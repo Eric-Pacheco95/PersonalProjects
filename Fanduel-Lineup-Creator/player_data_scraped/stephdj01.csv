@@ -1,0 +1,2 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2018-12-08,stephdj01,D.J. Stephens,733,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],4.0,Location.HOME,LOS_ANGELES_LAKERS,13,2,404,1,2,0,0,0,0,0,0,0,1,0,1,1.0
