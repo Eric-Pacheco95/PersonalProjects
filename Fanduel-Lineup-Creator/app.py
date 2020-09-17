@@ -14,17 +14,16 @@ def home():
             try:
 
                 csv = request.files['csv']
-                pgs,sgs,sfs,pfs,cs = get_lineup(csv)
+
+                contest_df = format_contest_csv(csv)
+
+                pgs,sgs,sfs,pfs,cs = get_lineup(contest_df)
+
+                optimized_lineup = get_optimized_lineup(pgs,sgs,sfs,pfs,cs)
 
                 return render_template('results.html',
-                                    tables=[
-                                        pgs.to_html(classes='data'),
-                                        sgs.to_html(classes='data'),
-                                        sfs.to_html(classes='data'),
-                                        pfs.to_html(classes='data'),
-                                        cs.to_html(classes='data')
-                                    ],
-                                    titles=['PGs','SGs','SFs','PFs','Cs'])
+                                    tables=[optimized_lineup.to_html(classes='data')],
+                                    titles=['Optimal Lineup'])
             
             except Exception as e:
                 return render_template('app_error.html')

@@ -10,12 +10,17 @@ from sqlalchemy import *
 from sqlalchemy.orm import Session
 from sqlalchemy import Table, Column, String, MetaData, Integer, Float
 import os
+from sklearn.preprocessing import MinMaxScaler
+from pulp import *
 
 #Load label encoders, player_slugs_names, team abbreviations and team full names from saved joblib objects
 player_label_encoder = joblib.load('joblib_objects/player_label_encoder')
 team_label_encoder = joblib.load('joblib_objects/team_label_encoder')
 player_slugs_names = joblib.load('joblib_objects/player_slugs_names')
 team_abbreviations_full_name_dict = joblib.load('joblib_objects/team_abbreviations_full_name_dict')
+
+#Reversed dictionary of player_slugs_names - slugs as keys, values as player names
+player_slugs_then_names = {value:key for key,value in player_slugs_names.items()}
 
 #Create connections to db_cleaned_data
 user = os.environ['RDS_NBA_DATABASE_USER']
@@ -93,41 +98,19 @@ def format_contest_csv(csv_file):
 #Function to retrieve model features dataframe for player which includes past week averages and total averages
 def get_historic_features(df):
 
-    for feature in past_7_features:
-        df[f'{feature}_last_7'] = df[feature].rolling(window=7).mean()
+    historic_features = {}
 
-        for i in range(len(df)):
-            if i < 7:
-                df[f'{feature}_last_7'].iloc[i] = df[feature].iloc[0:(
-                    i + 1)].rolling(i + 1).mean().mean()
-            else:
-                pass
-
-    df_totals = df[past_7_features]
+    df_past_7_games = df.iloc[-7:]
 
     for feature in past_7_features:
-        df_totals[f'{feature}_average'] = ''
-        for i in range(len(df_totals)):
-            df_totals[f'{feature}_average'].iloc[i] = df_totals[feature].iloc[
-                0:i + 1].mean()
-        else:
-            pass
+        historic_features[f'{feature}_last_7'] = [df_past_7_games[feature].mean()]
+    
+    for feature in past_7_features:
+        historic_features[f'{feature}_average'] = [df[feature].mean()]
 
-    df_totals_columns = [f'{feature}_average' for feature in past_7_features]
+    historic_features_df = pd.DataFrame(historic_features)
 
-    df_totals = df_totals[df_totals_columns]
-
-    df_model_features = df
-    df_model_features = df_model_features.reset_index()
-
-    df_totals = df_totals.reset_index()
-
-    df_model_features = pd.merge(df_model_features, df_totals, on='index')
-    df_model_features = df_model_features.drop('index', axis=1)
-    df_model_features = df_model_features.drop('rest', axis=1)
-    df_model_features = df_model_features.drop(past_7_features, axis=1)
-
-    return df_model_features
+    return historic_features_df
 
 def predict_player_fdpoints(slug, location, opponent_id):
 
@@ -157,9 +140,8 @@ def predict_player_fdpoints(slug, location, opponent_id):
         ]
 
         #Use get_historic_features function to get historic data and retrieve most recent game with only X features columns
-        most_recent_game = get_historic_features(df).iloc[-1]
-        most_recent_game_date = most_recent_game['date']
-        most_recent_game = most_recent_game[X_features]
+        most_recent_game = get_historic_features(df)
+        most_recent_game_date = df.iloc[-1]['date']
 
         #Get days of rest by calculting from most recent game date
         current_date = datetime.datetime.now()
@@ -193,9 +175,17 @@ def predict_player_fdpoints(slug, location, opponent_id):
             'Opponent_Turnover_Percentage', 'Opponent_Defensive_Rebound_Percentage'
         ]]
 
-        prediction_df = pd.concat([location_opponent_id_df.iloc[0], analytics.iloc[0], most_recent_game], axis=0)
-        prediction_testing_array = pd.DataFrame(prediction_df).transpose().values
+        #Concatenate 3 dataframes into one then produce values as list
+        prediction_series = pd.concat([location_opponent_id_df.iloc[0], analytics.iloc[0], most_recent_game.iloc[0]])
+        prediction_df = pd.DataFrame(prediction_series.to_dict(),index=[0])
+        prediction_testing_array = prediction_df.values
+        
+        #Load MinMaxScaler based on slug and transform values 
+        scaler = joblib.load(f'scalers/{slug}_scaler')
 
+        prediction_testing_array = scaler.transform(prediction_testing_array)
+
+        #Get prediction by loading model based on slug and using prediction_testing_array to produce prediction
         player_xgb_model = joblib.load(f'models/{slug}_model.dat')
         prediction = player_xgb_model.predict(prediction_testing_array)
 
@@ -204,41 +194,7 @@ def predict_player_fdpoints(slug, location, opponent_id):
     else:
         pass
 
-def predict_full_lineup(csv_file):
-
-    #Load formatted contest csv into pandas dataframe
-    contest_df = format_contest_csv(csv_file)
-
-    predictions_df = pd.DataFrame(columns=['slug','pts_spread','position','salary'])
-    for slug in contest_df:
-        #Predict fd_pts and compare to projection based on fd listed salary
-        fd_pts_prediction = predict_player_fdpoints(contest_df['slug'])
-        player_position = contest_df['Position']
-        pts_projection = (contest_df['Salary'] / 1000) * 5
-        pts_spread = (fd_pts_prediction - pts_projection) / 10
-
-        #Add row to predictions_df
-        predictions_df.append({'slug':contest_df['slug'], 'pts_spread':pts_spread,
-                                'position':player_position, 'salary':contest_df['Salary']},ignore_index=True)
-
-        #Create top value df
-        sorted_predictions_df = predictions_df.sort_values('pts_spread',ascending=True)
-
-        #Create top value dfs for each position
-        sorted_predictions_pg_df = predictions_df.loc[predictions_df['position'] == 'PG'].sort_values('pts_spread',ascending=True).iloc[:5]
-        sorted_predictions_sg_df = predictions_df.loc[predictions_df['position'] == 'SG'].sort_values('pts_spread',ascending=True).iloc[:5]
-        sorted_predictions_sf_df = predictions_df.loc[predictions_df['position'] == 'SF'].sort_values('pts_spread',ascending=True).iloc[:5]
-        sorted_predictions_pf_df = predictions_df.loc[predictions_df['position'] == 'PF'].sort_values('pts_spread',ascending=True).iloc[:5]
-        sorted_predictions_c_df = predictions_df.loc[predictions_df['position'] == 'C'].sort_values('pts_spread', ascending=True).iloc[:5]
-
-        # List of FD positions.
-        FD_POSITION_LIST = ['PG', 'SG', 'PF', 'SF', 'C']
-        salaries = predictions_df['Salary'].to_numpy()
-        values = predictions_df['pts_spread'].to_numpy()
-
-def get_lineup(csv_file):
-
-    contest_df = format_contest_csv(csv_file)
+def get_lineup(contest_df):
 
     predictions_df = pd.DataFrame(columns=[
         'slug', 'projected_fd_pts',
@@ -256,21 +212,26 @@ def get_lineup(csv_file):
             salary = contest_df.iloc[i]['Salary']
             opponent_id = contest_df.iloc[i]['Opponent_ID']
 
-            #Predict player projection and get pts_spread
-            prediction = predict_player_fdpoints(slug, location, opponent_id)[0]
-            pts_projection = (salary / 1000) * 5
-            pts_spread = (prediction - pts_projection) / 10
+            if salary > 3500:
 
-            #Add new row to predictions
-            predictions_df = predictions_df.append(
-                {
-                    'slug': slug,
-                    'projected_fd_pts': prediction,
-                    'pts_spread': pts_spread,
-                    'position': position,
-                    'salary': salary
-                },
-                ignore_index=True)
+                #Predict player projection and get pts_spread
+                prediction = predict_player_fdpoints(slug, location, opponent_id)[0]
+                pts_projection = (salary / 1000) * 5
+                pts_spread = (prediction - pts_projection) / 10
+
+                #Add new row to predictions
+                predictions_df = predictions_df.append(
+                    {
+                        'slug': slug,
+                        'projected_fd_pts': prediction,
+                        'pts_spread': pts_spread,
+                        'position': position,
+                        'salary': salary
+                    },
+                    ignore_index=True)
+            
+            else:
+                pass
         
         except Exception as e:
             print(e)
@@ -278,11 +239,86 @@ def get_lineup(csv_file):
     #Create top value df
     sorted_predictions_df = predictions_df.sort_values('pts_spread', ascending=False)
 
-    #Create top value dfs for each position
-    pgs = predictions_df.loc[predictions_df['position'] == 'PG'].sort_values('pts_spread', ascending=False).iloc[:6]
-    sgs = predictions_df.loc[predictions_df['position'] == 'SG'].sort_values('pts_spread', ascending=False).iloc[:6]
-    sfs = predictions_df.loc[predictions_df['position'] == 'SF'].sort_values('pts_spread', ascending=False).iloc[:6]
-    pfs = predictions_df.loc[predictions_df['position'] == 'PF'].sort_values('pts_spread', ascending=False).iloc[:6]
-    cs = predictions_df.loc[predictions_df['position'] =='C'].sort_values('pts_spread',ascending=False).iloc[:4]
+    #Create top value list for each position
+    pgs = predictions_df.loc[predictions_df['position'] == 'PG'].sort_values('pts_spread', ascending=False).iloc[:6].values
+    sgs = predictions_df.loc[predictions_df['position'] == 'SG'].sort_values('pts_spread', ascending=False).iloc[:6].values
+    sfs = predictions_df.loc[predictions_df['position'] == 'SF'].sort_values('pts_spread', ascending=False).iloc[:6].values
+    pfs = predictions_df.loc[predictions_df['position'] == 'PF'].sort_values('pts_spread', ascending=False).iloc[:6].values
+    cs = predictions_df.loc[predictions_df['position'] =='C'].sort_values('pts_spread',ascending=False).iloc[:4].values
 
     return pgs,sgs,sfs,pfs,cs
+
+def get_optimized_lineup(pgs,sgs,sfs,pfs,cs):
+
+    salaries = {}
+    points = {}
+    for position in [pgs,sgs,sfs,pfs,cs]:
+        
+        player_salaries = {}
+        player_points = {}
+        position_dictionary_key = position[0][3]
+        
+        for player in position:
+            
+            player_salaries[player[0]] = player[4]
+            player_points[player[0]] = player[2]
+            
+        salaries[position_dictionary_key] = player_salaries
+        points[position_dictionary_key] = player_points
+
+    pos_num_available = {
+        "PG": 2,
+        "SG": 2,
+        "SF": 2,
+        "PF": 2,
+        "C": 1
+    }
+
+    SALARY_CAP = 60000
+    MINIMUM_SALARY_USE = 59000
+
+    _vars = {k: LpVariable.dict(k, v, cat="Binary") for k, v in points.items()}
+
+    prob = LpProblem("Fantasy", LpMaximize)
+    rewards = []
+    costs = []
+    position_constraints = []
+    
+    for k, v in _vars.items():
+        costs += lpSum([salaries[k][i] * _vars[k][i] for i in v])
+        rewards += lpSum([points[k][i] * _vars[k][i] for i in v])
+        prob += lpSum([_vars[k][i] for i in v]) == pos_num_available[k]
+        
+    prob += lpSum(rewards)
+    prob += lpSum(costs) <= SALARY_CAP
+    prob += lpSum(costs) >= MINIMUM_SALARY_USE
+
+    prob.solve()
+
+    optimized_lineup_df = pd.DataFrame(columns=['Player','Salary','Position'])
+    
+    for v in prob.variables():
+    
+        score = str(prob.objective)
+        constraints = [str(const) for const in prob.constraints.values()]
+        score = score.replace(v.name, str(v.varValue))
+        constraints = [const.replace(v.name, str(v.varValue)) for const in constraints]
+        
+        if v.varValue != 0:
+            v_str_split = str(v).split('_')
+            slug = v_str_split[1]
+            position = v_str_split[0]
+            
+            player = player_slugs_then_names[slug]
+            salary = salaries[position][slug]
+            
+            new_row = {
+                'Player':player,
+                'Salary':salary,
+                'Position':position
+            }
+            
+            optimized_lineup_df = optimized_lineup_df.append(new_row,ignore_index=True)
+    
+    return optimized_lineup_df
+            
