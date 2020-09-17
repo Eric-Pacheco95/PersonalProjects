@@ -35,3 +35,16 @@ The steps to producing a winning contest lineup are the same as outlined in the 
 * Create models for each individual NBA player which can predict a player's fantasy output
 * Using individual player models, and past NBA player data, predict player fantasy output for each player in fanduel contest
 * Optimize lineup based on predicted player fantasy outputs to maximize value of contest lineup
+
+
+## Data Collection and Storing
+
+All NBA player data was collected and stored using this [jupyter notebook](https://github.com/Eric-Pacheco95/PersonalProjects/blob/master/Fanduel-Lineup-Creator/notebooks/player_stats.ipynb)
+
+To collect NBA player data the [basketball reference web scraper library](https://jaebradley.github.io/basketball_reference_web_scraper/) was used. This library contains all NBA data collected from https://www.basketball-reference.com/
+
+After all the data was collected and formatted, each players data was uploaded to a AWS Redshift database as a table.
+
+NBA team advanced data was also collected from basketball reference, however the data was available to be downloaded as a csv. Each year from 2016-2020 was collected.
+
+![Advanced Stats](static/images/advanced_stats.png)
