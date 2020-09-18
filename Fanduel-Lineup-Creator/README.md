@@ -76,3 +76,8 @@ When trying to determine the best parameters for each individual model, the sci-
 
 ## Lineup Optimization
 
+Fanduel provides a csv edit feature when you enter a contest which contains an outline of all the players that can be picked for that contest. This includes their salary, opponent, and injury indication. This is useful because a formatted csv layout for each contest can be assumed, and a script/feature can be created which takes the names of each player available in the contest and predicts the amount of fantasy points that player will produce on that night.
+
+![CSV Edit](static/images/save_csv.png)
+
+This [script](https://github.com/Eric-Pacheco95/PersonalProjects/blob/master/Fanduel-Lineup-Creator/scripts/fanduel_lineup_creator.py) provides functions which can read and format the contest csv, predict the fantasy output for each player in the contest, and produce the optimal lineup that has the highest fantasy points output.
