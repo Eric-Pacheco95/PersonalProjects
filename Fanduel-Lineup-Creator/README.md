@@ -91,3 +91,19 @@ Fanduel provides a csv edit feature when you enter a contest which contains an o
 ![CSV Edit](static/images/save_csv.png)
 
 This [script](https://github.com/Eric-Pacheco95/PersonalProjects/blob/master/Fanduel-Lineup-Creator/scripts/fanduel_lineup_creator.py) provides functions which can read and format the contest csv, predict the fantasy output for each player in the contest, and produce the optimal lineup that has the highest fantasy points output.
+
+The first step of the script is to format the contest csv so that each player and their salary information on fanduel for the night can be saved as a pandas dataframe. Next each player in the contest dataframe has their player data read from the AWS RDS database and the base stats averages are calculated (all-time averages and past 7 day averages for points, rebounds, assists, etc). The amount of rest before the contest date is also calculated, along with the opponents advanced analytics. After a player dataset is formatted correctly the dataset is inputted to the corresponding player model to predict their fantasy point output for the contest.
+
+The fantasy point predictions are compared with their fanduel salary for the night to determine which players have a higher value for the contest. Using the [pulp optimizer](https://coin-or.github.io/pulp/), the optimal contest lineup is determined using the constraint solver. This [article](https://medium.com/ml-everything/using-python-and-linear-programming-to-optimize-fantasy-football-picks-dc9d1229db81) was referenced to complete the lineup optimization problem.
+
+### References 
+
+* [Optimization of Daily Fantasy Basketball Lineups via Machine Learning](https://digitalcommons.liberty.edu/cgi/viewcontent.cgi?article=1909&context=honors) - James Earl
+
+* [Creating a fully automated daily fantasy sports strategy](https://towardsdatascience.com/creating-a-fully-automated-daily-fantasy-sports-strategy-6842d2e1ccb6) - Nate Harner
+
+* [Using Python and Linear Programming to Optimize Fantasy Football Picks](https://medium.com/ml-everything/using-python-and-linear-programming-to-optimize-fantasy-football-picks-dc9d1229db81) - Branko Blagojevic
+
+### Conclusion
+
+I hope to test this lineup creator in fanduel contest, report back with results on contest winning percentages and determine the accuracy of the model.
