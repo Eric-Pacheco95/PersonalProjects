@@ -80,7 +80,7 @@ When trying out many different models (SVM, Decision Trees, etc), the best resul
 
 When trying to determine the best parameters for each individual model, the sci-kit learn [RandomizedSearchCV](https://scikit-learn.org/0.16/modules/generated/sklearn.grid_search.RandomizedSearchCV.html) function was used to test multiple hyper parameters and return the optimized model parameters. Once the optimized parameters were obtained for each player model, the xgb model was trained again and the models were saved.
 
-The models created had an average MAE of . The top 20 feature importances are shown below:
+The models created had an average MAE of 7.305. The top 20 feature importances are shown below:
 
 ![Feature Importances](static/images/feature_importances.png)
 
