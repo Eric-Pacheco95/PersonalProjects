@@ -49,6 +49,9 @@ NBA team advanced data was also collected from basketball reference, however the
 
 ![Advanced Stats](static/images/advanced_stats.png)
 
+Later in this project, after creating a [Heroku App](https://fanduel-lineup-creator.herokuapp.com/), the [Heroku Scheduler](https://devcenter.heroku.com/articles/scheduler) was used to run a [python script](https://github.com/Eric-Pacheco95/PersonalProjects/blob/master/Fanduel-Lineup-Creator/scripts/add_daily_boxscores.py). This script runs every day at 3pm, and it updates the AWS RDS NBA database with yesterdays NBA data. 
+
+![Heroku Scheduler](static/images/heroku_scheduler.png)
 
 ## Feature Engineering
 
@@ -56,14 +59,17 @@ The next step was to produce more relevant variables which can be used to create
 
 Therefore in this [jupyter notebook](https://github.com/Eric-Pacheco95/PersonalProjects/blob/master/Fanduel-Lineup-Creator/notebooks/player_stats_feature_engineering.ipynb), the focus was to find and create relevant variables which can contribute to making a more accurate prediction model for each NBA player.
 
+### Advanced Analytics
 To start, I used the advanced analytics that was downloaded in the previous step. Each team has it's strengths and weaknesses, and based on these attributes, a player may perform better or worse. To showcase these strengths and weaknesses as variables in our model, we can take for example a player's games and attribute the corresponding advanced analytics based on the opponent a player is competing against. This means every game in our players data will also include columns for opponent advanced stats such as the opponent's offensive ratings, defensive ratings, net ratings, pace, and other relevant stats.
 
+### Player Rest
 Another key metric in predicting a players fantasy output is the amount of rest a player has had before playing that game. A player normally plays better when he has at least 2 days of rest, and plays worse on average when there is no days of rest. By using the game dates I added 7 new columns which had a binary value of 0 or 1. These 7 columns were no rest, 1 day rest, 2 day rest, 3 day rest, 4 day rest, 5 day rest, and 5+ days rest.
 
 When training a player model, each game a player has played, and the corresponding data (points, rebounds, assists, rest, advanced analytics) is what makes up a data point. As a result, when predicting a player's fantasy output, this format of how each data point is entered must be identical. This is where some issues arised, and I realized I could not train the player models by including each game's basic stats (points, rebounds, assists). This is because of the previous point where the model requires a data point to follow the same format as the data points the model was trained on. The model would expect that the input would include the basic stats, which is impossible because the game has not been played yet. 
 
 To fix this issue, instead of the basic stats being used to train the model, the season averages for each basic stat was added as a column. This average would be inclusive of every game played before each game data, and would therefore show a player's season averages leading into the game. 
 
+### Hot streaks and all-time averages
 Another aspect of NBA games is that player's tend to go on streaks, meaning players sometimes play better for days or weeks at a time or vice-versa. To incorporate this into my variables, I took a similar approach as when implementing the season averages. The same method was taken except the average of each basic stat for the past 7 games was added instead of all-time stats.
 
 Adding the all-time averages, and past 7 days averages was incorporated in this [jupyter notebook](https://github.com/Eric-Pacheco95/PersonalProjects/blob/master/Fanduel-Lineup-Creator/notebooks/xgb_model_creation.ipynb)
@@ -73,6 +79,10 @@ Adding the all-time averages, and past 7 days averages was incorporated in this 
 When trying out many different models (SVM, Decision Trees, etc), the best results came from the [XGBoost Regression model](https://xgboost.readthedocs.io/en/latest/python/python_api.html#module-xgboost.sklearn). The process for setting up the models can be seen in this [jupyter notebook](https://github.com/Eric-Pacheco95/PersonalProjects/blob/master/Fanduel-Lineup-Creator/notebooks/xgb_model_creation.ipynb).
 
 When trying to determine the best parameters for each individual model, the sci-kit learn [RandomizedSearchCV](https://scikit-learn.org/0.16/modules/generated/sklearn.grid_search.RandomizedSearchCV.html) function was used to test multiple hyper parameters and return the optimized model parameters. Once the optimized parameters were obtained for each player model, the xgb model was trained again and the models were saved.
+
+The models created had an average MAE of . The top 20 feature importances are shown below:
+
+![Feature Importances](static/images/feature_importances.png)
 
 ## Lineup Optimization
 
