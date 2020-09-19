@@ -1,5 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2018-02-05,mccreer01,Erik McCree,512,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],0.0,Location.AWAY,NEW_ORLEANS_PELICANS,18,0,110,0,1,0,0,0,0,0,0,0,0,0,0,-0.7
-1,2018-02-09,mccreer01,Erik McCree,512,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],0.0,Location.HOME,CHARLOTTE_HORNETS,3,0,53,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2,2018-03-11,mccreer01,Erik McCree,512,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],0.0,Location.AWAY,NEW_ORLEANS_PELICANS,18,0,38,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-3,2018-03-13,mccreer01,Erik McCree,512,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],3.2,Location.HOME,DETROIT_PISTONS,8,0,250,0,1,0,1,0,0,0,1,0,1,0,1,-0.4

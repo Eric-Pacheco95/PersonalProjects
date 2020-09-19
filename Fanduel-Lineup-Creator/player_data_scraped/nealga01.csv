@@ -1,3 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2017-01-18,nealga01,Gary Neal,575,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],6.7,Location.AWAY,DETROIT_PISTONS,8,4,764,0,4,0,1,4,4,0,1,1,0,0,0,1.8
-1,2017-01-20,nealga01,Gary Neal,575,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],0.0,Location.HOME,CHICAGO_BULLS,4,0,336,0,3,0,1,0,0,0,0,0,0,0,0,-2.1

@@ -1,3 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2020-02-07,howarwi01,William Howard,362,[<Position.POWER_FORWARD: 'POWER FORWARD'>],2.9,Location.AWAY,PHOENIX_SUNS,23,0,720,0,4,0,4,0,0,0,2,1,0,0,1,-2.9
-1,2020-02-11,howarwi01,William Howard,362,[<Position.POWER_FORWARD: 'POWER FORWARD'>],0.0,Location.HOME,BOSTON_CELTICS,1,0,76,0,0,0,0,0,0,0,0,0,0,0,0,0.0

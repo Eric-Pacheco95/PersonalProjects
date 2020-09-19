@@ -1,8 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2017-10-20,clavegi01,Gian Clavell,159,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],8.4,Location.HOME,SACRAMENTO_KINGS,25,3,598,1,3,1,3,0,0,1,1,0,1,0,0,3.3
-1,2017-10-21,clavegi01,Gian Clavell,159,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],20.0,Location.AWAY,HOUSTON_ROCKETS,10,9,1475,3,7,3,5,0,0,0,5,2,1,0,1,7.4
-2,2017-10-23,clavegi01,Gian Clavell,159,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],1.5,Location.HOME,GOLDEN_STATE_WARRIORS,9,0,364,0,2,0,2,0,0,0,0,1,0,0,0,-1.9
-3,2017-10-26,clavegi01,Gian Clavell,159,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],0.0,Location.AWAY,MEMPHIS_GRIZZLIES,14,0,154,0,0,0,0,0,0,0,0,0,0,0,0,-0.4
-4,2017-10-30,clavegi01,Gian Clavell,159,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],0.0,Location.AWAY,UTAH_JAZZ,28,0,150,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-5,2017-11-04,clavegi01,Gian Clavell,159,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],3.0,Location.AWAY,MINNESOTA_TIMBERWOLVES,17,3,592,1,3,1,3,0,0,0,0,0,0,0,0,0.9
-6,2017-11-12,clavegi01,Gian Clavell,159,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],4.0,Location.AWAY,OKLAHOMA_CITY_THUNDER,20,5,485,1,3,1,2,2,2,0,0,0,0,0,1,1.9

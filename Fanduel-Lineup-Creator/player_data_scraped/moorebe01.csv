@@ -1,3 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2018-01-24,moorebe01,Ben Moore,549,[<Position.POWER_FORWARD: 'POWER FORWARD'>],1.5,Location.HOME,PHOENIX_SUNS,23,0,174,0,0,0,0,0,0,0,0,1,0,0,0,-0.1
-1,2018-02-05,moorebe01,Ben Moore,549,[<Position.POWER_FORWARD: 'POWER FORWARD'>],1.2,Location.HOME,WASHINGTON_WIZARDS,29,0,383,0,0,0,0,0,0,0,1,0,0,0,0,-0.5

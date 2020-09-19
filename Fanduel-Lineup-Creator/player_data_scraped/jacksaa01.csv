@@ -1,2 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2018-04-11,jacksaa01,Aaron Jackson,382,[<Position.POINT_GUARD: 'POINT GUARD'>],12.1,Location.AWAY,SACRAMENTO_KINGS,25,8,2070,3,9,1,4,1,2,2,1,1,0,0,1,2.3

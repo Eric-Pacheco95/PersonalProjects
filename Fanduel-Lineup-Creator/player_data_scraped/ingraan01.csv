@@ -1,7 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2018-04-10,ingraan01,Andre Ingram,376,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],35.1,Location.HOME,HOUSTON_ROCKETS,10,19,1753,6,8,4,5,3,3,0,3,1,1,3,1,18.7
-1,2018-04-11,ingraan01,Andre Ingram,376,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],21.6,Location.AWAY,LOS_ANGELES_CLIPPERS,12,5,2095,2,9,1,4,0,0,1,2,6,2,0,2,4.6
-2,2019-03-12,ingraan01,Andre Ingram,376,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],0.0,Location.AWAY,CHICAGO_BULLS,4,0,129,0,1,0,0,0,0,0,0,0,0,0,0,-0.7
-3,2019-03-14,ingraan01,Andre Ingram,376,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],5.4,Location.AWAY,TORONTO_RAPTORS,27,0,304,0,4,0,3,0,0,1,1,0,1,0,0,-0.8
-4,2019-03-15,ingraan01,Andre Ingram,376,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],0.0,Location.AWAY,DETROIT_PISTONS,8,0,362,0,1,0,0,0,0,0,0,0,0,0,0,-0.7
-5,2019-03-19,ingraan01,Andre Ingram,376,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],-1.0,Location.AWAY,MILWAUKEE_BUCKS,16,0,81,0,0,0,0,0,0,0,0,0,0,0,1,-1.0

@@ -1,6 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2016-11-05,lucasjo02,John Lucas III,480,[<Position.POINT_GUARD: 'POINT GUARD'>],9.5,Location.AWAY,OKLAHOMA_CITY_THUNDER,20,2,375,1,4,0,1,0,0,0,0,1,2,0,0,2.3
-1,2016-11-09,lucasjo02,John Lucas III,480,[<Position.POINT_GUARD: 'POINT GUARD'>],0.0,Location.AWAY,ORLANDO_MAGIC,21,0,76,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2,2016-11-13,lucasjo02,John Lucas III,480,[<Position.POINT_GUARD: 'POINT GUARD'>],0.0,Location.HOME,LOS_ANGELES_LAKERS,13,0,71,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-3,2016-11-17,lucasjo02,John Lucas III,480,[<Position.POINT_GUARD: 'POINT GUARD'>],0.0,Location.HOME,PHILADELPHIA_76ERS,22,0,82,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-4,2016-11-19,lucasjo02,John Lucas III,480,[<Position.POINT_GUARD: 'POINT GUARD'>],0.0,Location.AWAY,MEMPHIS_GRIZZLIES,14,0,37,0,0,0,0,0,0,0,0,0,0,0,0,0.0

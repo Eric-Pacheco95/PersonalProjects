@@ -1,4 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2019-01-27,terryem01,Emanuel Terry,753,[<Position.POWER_FORWARD: 'POWER FORWARD'>],16.1,Location.AWAY,LOS_ANGELES_LAKERS,13,5,530,2,4,0,0,1,2,2,1,1,2,0,0,6.6
-1,2019-01-29,terryem01,Emanuel Terry,753,[<Position.POWER_FORWARD: 'POWER FORWARD'>],8.6,Location.AWAY,SAN_ANTONIO_SPURS,26,4,640,2,2,0,0,0,0,0,3,0,1,0,2,2.1
-2,2019-02-23,terryem01,Emanuel Terry,753,[<Position.POWER_FORWARD: 'POWER FORWARD'>],3.7,Location.HOME,DETROIT_PISTONS,8,1,195,0,1,0,0,1,2,1,0,1,0,0,0,1.3

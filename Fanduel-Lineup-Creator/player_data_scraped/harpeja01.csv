@@ -1,4 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2019-10-23,harpeja01,Jared Harper,312,[<Position.POINT_GUARD: 'POINT GUARD'>],0.0,Location.HOME,SACRAMENTO_KINGS,25,0,119,0,1,0,1,0,0,0,0,0,0,0,0,-0.7
-1,2020-02-02,harpeja01,Jared Harper,312,[<Position.POINT_GUARD: 'POINT GUARD'>],0.0,Location.AWAY,MILWAUKEE_BUCKS,16,0,141,0,1,0,1,0,0,0,0,0,0,0,0,-0.7
-2,2020-02-03,harpeja01,Jared Harper,312,[<Position.POINT_GUARD: 'POINT GUARD'>],2.0,Location.AWAY,BROOKLYN_NETS,2,2,213,1,2,0,0,0,0,0,0,0,0,0,0,1.0

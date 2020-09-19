@@ -1,4 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2017-03-01,bentibe01,Ben Bentil,68,[<Position.POWER_FORWARD: 'POWER FORWARD'>],0.0,Location.AWAY,ATLANTA_HAWKS,0,0,269,0,0,0,0,0,0,0,0,0,0,0,0,-0.4
-1,2017-03-05,bentibe01,Ben Bentil,68,[<Position.POWER_FORWARD: 'POWER FORWARD'>],1.4,Location.HOME,OKLAHOMA_CITY_THUNDER,20,0,155,0,0,0,0,0,0,0,2,0,0,0,1,-0.4
-2,2017-03-07,bentibe01,Ben Bentil,68,[<Position.POWER_FORWARD: 'POWER FORWARD'>],0.0,Location.HOME,LOS_ANGELES_LAKERS,13,0,168,0,3,0,1,0,0,0,0,0,0,0,0,-2.1

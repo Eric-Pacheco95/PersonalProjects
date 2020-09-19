@@ -1,3 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2016-10-29,tavarwa01,Edy Tavares,745,[<Position.CENTER: 'CENTER'>],3.2,Location.AWAY,PHILADELPHIA_76ERS,22,2,216,1,1,0,0,0,2,0,1,0,0,0,0,1.2
-1,2017-04-12,tavarwa01,Edy Tavares,745,[<Position.CENTER: 'CENTER'>],35.5,Location.HOME,TORONTO_RAPTORS,27,6,1440,3,4,0,0,0,1,4,6,1,0,6,2,10.3

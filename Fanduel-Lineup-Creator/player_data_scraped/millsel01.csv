@@ -1,3 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2017-04-09,millsel01,Elijah Millsap,537,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],2.9,Location.HOME,DALLAS_MAVERICKS,6,0,720,0,5,0,2,0,0,0,2,1,0,0,1,-4.0
-1,2017-04-11,millsel01,Elijah Millsap,537,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],6.8,Location.AWAY,SACRAMENTO_KINGS,25,3,668,1,2,0,0,1,2,3,1,0,0,0,1,3.0

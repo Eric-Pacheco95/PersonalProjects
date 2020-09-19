@@ -1,4 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2019-01-02,macurjp01,J.P. Macura,488,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],9.4,Location.HOME,DALLAS_MAVERICKS,6,4,828,2,8,0,4,0,0,0,2,2,0,0,0,1.2
-1,2019-04-09,macurjp01,J.P. Macura,488,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],3.2,Location.AWAY,CLEVELAND_CAVALIERS,5,2,182,1,1,0,0,0,0,0,1,0,0,0,0,2.0
-2,2020-02-12,macurjp01,J.P. Macura,488,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],0.0,Location.HOME,ATLANTA_HAWKS,0,0,37,0,0,0,0,0,0,0,0,0,0,0,0,0.0

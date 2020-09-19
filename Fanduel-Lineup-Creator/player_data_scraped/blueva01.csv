@@ -1,6 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2017-11-09,blueva01,Vander Blue,81,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],2.0,Location.AWAY,WASHINGTON_WIZARDS,29,2,186,1,2,0,0,0,0,0,0,0,0,0,0,1.0
-1,2017-11-11,blueva01,Vander Blue,81,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],0.19999999999999996,Location.AWAY,MILWAUKEE_BUCKS,16,0,861,0,0,0,0,0,0,0,1,0,0,0,1,-1.1
-2,2017-11-13,blueva01,Vander Blue,81,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],1.5,Location.AWAY,PHOENIX_SUNS,23,0,331,0,1,0,0,0,0,0,0,1,0,0,0,-0.4
-3,2017-11-17,blueva01,Vander Blue,81,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],-1.0,Location.HOME,PHOENIX_SUNS,23,0,304,0,0,0,0,0,0,0,0,0,0,0,1,-1.0
-4,2018-01-01,blueva01,Vander Blue,81,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],6.0,Location.AWAY,MINNESOTA_TIMBERWOLVES,17,1,1013,0,2,0,2,1,2,0,0,2,1,0,1,0.6

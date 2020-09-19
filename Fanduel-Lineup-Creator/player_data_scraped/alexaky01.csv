@@ -1,3 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2020-08-06,alexaky01,Kyle Alexander,11,[<Position.POWER_FORWARD: 'POWER FORWARD'>],1.2,Location.AWAY,MILWAUKEE_BUCKS,16,0,82,0,1,0,0,0,0,1,0,0,0,0,0,0.0
-1,2020-08-14,alexaky01,Kyle Alexander,11,[<Position.POWER_FORWARD: 'POWER FORWARD'>],3.4000000000000004,Location.AWAY,INDIANA_PACERS,11,2,720,1,1,0,0,0,0,1,1,0,0,0,1,1.3

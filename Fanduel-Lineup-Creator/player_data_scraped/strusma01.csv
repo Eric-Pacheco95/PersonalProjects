@@ -1,3 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2019-11-22,strusma01,Max Strus,739,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],6.2,Location.HOME,MIAMI_HEAT,15,5,295,2,3,0,1,1,1,1,0,0,0,0,0,4.0
-1,2019-11-29,strusma01,Max Strus,739,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],0.0,Location.AWAY,PORTLAND_TRAIL_BLAZERS,24,0,79,0,0,0,0,0,0,0,0,0,0,0,0,0.0

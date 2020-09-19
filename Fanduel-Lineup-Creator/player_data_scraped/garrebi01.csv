@@ -1,5 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2019-04-03,garrebi01,Billy Garrett,268,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],7.0,Location.AWAY,ORLANDO_MAGIC,21,4,692,2,6,0,2,0,0,0,0,2,0,0,0,2.0
-1,2019-04-05,garrebi01,Billy Garrett,268,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],17.2,Location.AWAY,HOUSTON_ROCKETS,10,8,1507,3,7,0,2,2,2,0,1,2,1,1,1,5.9
-2,2019-04-09,garrebi01,Billy Garrett,268,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],13.4,Location.AWAY,CHICAGO_BULLS,4,8,783,4,9,0,2,0,0,0,2,2,0,0,0,4.9
-3,2019-04-10,garrebi01,Billy Garrett,268,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],6.5,Location.HOME,DETROIT_PISTONS,8,6,824,2,5,0,2,2,2,0,0,1,0,0,1,3.0

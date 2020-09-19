@@ -1,5 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2019-03-24,machasc01,Scott Machado,485,[<Position.POINT_GUARD: 'POINT GUARD'>],0.0,Location.HOME,SACRAMENTO_KINGS,25,0,98,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-1,2019-03-26,machasc01,Scott Machado,485,[<Position.POINT_GUARD: 'POINT GUARD'>],3.0,Location.HOME,WASHINGTON_WIZARDS,29,3,66,1,2,0,0,1,1,0,0,0,0,0,0,2.0
-2,2019-03-27,machasc01,Scott Machado,485,[<Position.POINT_GUARD: 'POINT GUARD'>],14.5,Location.AWAY,UTAH_JAZZ,28,7,921,3,4,1,1,0,0,0,0,3,1,0,0,7.7
-3,2019-03-29,machasc01,Scott Machado,485,[<Position.POINT_GUARD: 'POINT GUARD'>],0.0,Location.HOME,CHARLOTTE_HORNETS,3,0,65,0,0,0,0,0,0,0,0,0,0,0,0,0.0

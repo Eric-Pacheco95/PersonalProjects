@@ -1,2 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2018-10-17,loftoza01,Zach Lofton,472,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],2.0,Location.HOME,BROOKLYN_NETS,2,0,225,0,1,0,1,0,0,0,0,0,1,0,1,-0.7

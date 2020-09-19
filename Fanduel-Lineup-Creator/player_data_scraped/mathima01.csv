@@ -1,5 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2017-10-25,mathima01,Mangok Mathiang,503,[<Position.CENTER: 'CENTER'>],2.4,Location.HOME,DENVER_NUGGETS,7,0,208,0,2,0,0,0,0,1,1,0,0,0,0,-0.4
-1,2017-12-18,mathima01,Mangok Mathiang,503,[<Position.CENTER: 'CENTER'>],1.2,Location.HOME,NEW_YORK_KNICKS,19,0,129,0,0,0,0,0,0,0,1,0,0,0,0,-0.1
-2,2017-12-20,mathima01,Mangok Mathiang,503,[<Position.CENTER: 'CENTER'>],3.5999999999999996,Location.HOME,TORONTO_RAPTORS,27,0,285,0,0,0,0,0,0,0,3,0,0,0,0,0.5
-3,2018-03-22,mathima01,Mangok Mathiang,503,[<Position.CENTER: 'CENTER'>],15.8,Location.HOME,MEMPHIS_GRIZZLIES,14,8,566,4,5,0,0,0,1,2,2,0,1,0,0,7.5

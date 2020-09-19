@@ -1,3 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2019-02-07,delgaan01,Ángel Delgado,199,[<Position.CENTER: 'CENTER'>],10.8,Location.AWAY,INDIANA_PACERS,11,3,816,1,4,0,0,1,2,2,2,0,1,0,0,2.4
-1,2019-03-28,delgaan01,Ángel Delgado,199,[<Position.CENTER: 'CENTER'>],0.0,Location.AWAY,MILWAUKEE_BUCKS,16,0,70,0,1,0,0,0,0,0,0,0,0,0,0,-0.7

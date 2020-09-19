@@ -17,7 +17,7 @@ def home():
 
                 contest_df = format_contest_csv(csv)
 
-                pgs,sgs,sfs,pfs,cs = get_lineup(contest_df)
+                pgs,sgs,sfs,pfs,cs = get_predictions(contest_df)
 
                 optimized_lineup = get_optimized_lineup(pgs,sgs,sfs,pfs,cs)
 

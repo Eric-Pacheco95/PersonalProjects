@@ -1,9 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2016-11-05,novakst01,Steve Novak,585,[<Position.POWER_FORWARD: 'POWER FORWARD'>],0.0,Location.HOME,SACRAMENTO_KINGS,25,0,214,0,1,0,1,0,0,0,0,0,0,0,0,-0.7
-1,2016-11-29,novakst01,Steve Novak,585,[<Position.POWER_FORWARD: 'POWER FORWARD'>],1.2,Location.HOME,CLEVELAND_CAVALIERS,5,0,98,0,1,0,1,0,0,0,1,0,0,0,0,-0.4
-2,2016-12-16,novakst01,Steve Novak,585,[<Position.POWER_FORWARD: 'POWER FORWARD'>],0.0,Location.AWAY,CHICAGO_BULLS,4,0,178,0,1,0,1,0,0,0,0,0,0,0,0,-0.7
-3,2016-12-21,novakst01,Steve Novak,585,[<Position.POWER_FORWARD: 'POWER FORWARD'>],1.2,Location.AWAY,CLEVELAND_CAVALIERS,5,0,152,0,0,0,0,0,0,0,1,0,0,0,0,-0.1
-4,2016-12-23,novakst01,Steve Novak,585,[<Position.POWER_FORWARD: 'POWER FORWARD'>],0.0,Location.HOME,WASHINGTON_WIZARDS,29,0,227,0,1,0,1,0,0,0,0,0,0,0,0,-0.7
-5,2016-12-28,novakst01,Steve Novak,585,[<Position.POWER_FORWARD: 'POWER FORWARD'>],1.2,Location.AWAY,DETROIT_PISTONS,8,0,163,0,1,0,1,0,0,0,1,0,0,0,0,-0.4
-6,2016-12-30,novakst01,Steve Novak,585,[<Position.POWER_FORWARD: 'POWER FORWARD'>],3.0,Location.AWAY,MINNESOTA_TIMBERWOLVES,17,3,174,1,1,1,1,0,0,0,0,0,0,0,0,2.7
-7,2016-12-31,novakst01,Steve Novak,585,[<Position.POWER_FORWARD: 'POWER FORWARD'>],2.0,Location.AWAY,CHICAGO_BULLS,4,2,109,1,1,0,0,0,0,0,0,0,0,0,0,1.7

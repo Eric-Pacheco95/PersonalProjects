@@ -1,2 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2020-02-01,mikaer01,Eric Mika,532,[<Position.POWER_FORWARD: 'POWER FORWARD'>],14.4,Location.HOME,LOS_ANGELES_LAKERS,13,6,1143,2,3,0,0,2,2,2,5,0,0,0,0,5.6

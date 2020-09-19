@@ -1,3 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2018-11-15,edwarvi01,Vince Edwards,228,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],4.2,Location.HOME,GOLDEN_STATE_WARRIORS,9,3,223,1,2,1,2,0,0,1,0,0,0,0,0,2.7
-1,2019-01-21,edwarvi01,Vince Edwards,228,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],1.2,Location.AWAY,PHILADELPHIA_76ERS,22,0,720,0,2,0,2,0,0,0,1,0,0,0,0,-1.1

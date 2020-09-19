@@ -1,5 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2018-12-31,caupatr01,Troy Caupain,144,[<Position.POINT_GUARD: 'POINT GUARD'>],12.2,Location.AWAY,CHARLOTTE_HORNETS,3,5,329,2,3,1,1,0,0,0,1,2,1,0,0,6.4
-1,2019-01-02,caupatr01,Troy Caupain,144,[<Position.POINT_GUARD: 'POINT GUARD'>],2.7,Location.AWAY,CHICAGO_BULLS,4,0,228,0,1,0,1,0,0,0,1,1,0,0,0,0.3
-2,2019-03-14,caupatr01,Troy Caupain,144,[<Position.POINT_GUARD: 'POINT GUARD'>],3.0,Location.HOME,CLEVELAND_CAVALIERS,5,3,173,1,2,1,1,0,0,0,0,0,0,0,0,2.0
-3,2019-03-25,caupatr01,Troy Caupain,144,[<Position.POINT_GUARD: 'POINT GUARD'>],4.7,Location.HOME,PHILADELPHIA_76ERS,22,2,208,1,2,0,0,0,0,1,0,1,0,0,0,2.4

@@ -1,7 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2018-01-20,munfoxa02,Xavier Munford,565,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],1.2,Location.AWAY,PHILADELPHIA_76ERS,22,0,108,0,2,0,0,0,0,1,0,0,0,0,0,-0.7
-1,2018-02-01,munfoxa02,Xavier Munford,565,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],4.0,Location.AWAY,MINNESOTA_TIMBERWOLVES,17,3,432,1,2,0,0,1,2,0,0,0,1,0,2,0.2
-2,2018-02-06,munfoxa02,Xavier Munford,565,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],1.5,Location.AWAY,NEW_YORK_KNICKS,19,0,109,0,0,0,0,0,0,0,0,1,0,0,0,0.3
-3,2018-02-15,munfoxa02,Xavier Munford,565,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],0.0,Location.HOME,DENVER_NUGGETS,7,0,36,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-4,2018-02-28,munfoxa02,Xavier Munford,565,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],4.5,Location.AWAY,DETROIT_PISTONS,8,0,459,0,2,0,2,0,0,0,0,3,0,0,0,0.3
-5,2018-03-09,munfoxa02,Xavier Munford,565,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],0.0,Location.HOME,NEW_YORK_KNICKS,19,0,101,0,0,0,0,0,0,0,0,0,0,0,0,-0.4

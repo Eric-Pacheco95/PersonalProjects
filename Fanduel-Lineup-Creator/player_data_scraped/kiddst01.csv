@@ -1,5 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2019-10-25,kiddst01,Stanton Kidd,431,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],1.5,Location.AWAY,LOS_ANGELES_LAKERS,13,0,279,0,1,0,0,0,0,0,0,1,0,0,0,-0.4
-1,2019-10-26,kiddst01,Stanton Kidd,431,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],0.3999999999999999,Location.HOME,SACRAMENTO_KINGS,25,0,445,0,2,0,1,0,0,0,2,0,0,0,2,-3.2
-2,2019-10-30,kiddst01,Stanton Kidd,431,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],0.0,Location.HOME,LOS_ANGELES_CLIPPERS,12,0,82,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-3,2019-11-11,kiddst01,Stanton Kidd,431,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],1.2,Location.AWAY,GOLDEN_STATE_WARRIORS,9,0,111,0,0,0,0,0,0,0,1,0,0,0,0,-0.1

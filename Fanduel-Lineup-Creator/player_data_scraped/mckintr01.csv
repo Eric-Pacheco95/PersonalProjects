@@ -1,2 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2018-02-23,mckintr01,Trey McKinney-Jones,520,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],0.0,Location.HOME,ATLANTA_HAWKS,0,0,74,0,0,0,0,0,0,0,0,0,0,0,0,0.0

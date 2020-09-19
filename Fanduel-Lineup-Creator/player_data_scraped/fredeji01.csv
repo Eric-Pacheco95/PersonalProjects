@@ -1,7 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2019-03-23,fredeji01,Jimmer Fredette,259,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],1.4,Location.AWAY,SACRAMENTO_KINGS,25,0,261,0,1,0,1,0,0,0,2,0,0,0,1,-1.5
-1,2019-03-25,fredeji01,Jimmer Fredette,259,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],9.7,Location.AWAY,UTAH_JAZZ,28,6,862,1,10,0,5,4,4,0,1,1,1,0,2,-1.4
-2,2019-04-01,fredeji01,Jimmer Fredette,259,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],7.5,Location.HOME,CLEVELAND_CAVALIERS,5,6,352,2,3,0,0,2,2,0,0,1,0,0,0,5.4
-3,2019-04-03,fredeji01,Jimmer Fredette,259,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],17.7,Location.HOME,UTAH_JAZZ,28,10,1303,5,11,0,4,0,0,0,1,1,2,0,1,5.5
-4,2019-04-07,fredeji01,Jimmer Fredette,259,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],2.7,Location.AWAY,HOUSTON_ROCKETS,10,0,309,0,1,0,1,0,0,1,0,1,0,0,0,0.7
-5,2019-04-09,fredeji01,Jimmer Fredette,259,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],7.4,Location.AWAY,DALLAS_MAVERICKS,6,0,799,0,3,0,2,0,0,0,2,4,0,0,1,0.3

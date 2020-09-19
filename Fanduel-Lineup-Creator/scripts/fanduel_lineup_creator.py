@@ -62,6 +62,7 @@ def strip_accents(s):
                    if unicodedata.category(c) != 'Mn')
 
 
+#Function to format contest csv 
 def format_contest_csv(csv_file):
 
     #Load csv
@@ -98,16 +99,21 @@ def format_contest_csv(csv_file):
 #Function to retrieve model features dataframe for player which includes past week averages and total averages
 def get_historic_features(df):
 
+    #Make empty dictionary to hold features
     historic_features = {}
 
+    #Get past 7 games
     df_past_7_games = df.iloc[-7:]
 
+    #Add past 7 games basic stats averages and store in historic_features
     for feature in past_7_features:
         historic_features[f'{feature}_last_7'] = [df_past_7_games[feature].mean()]
     
+    #Add all-time games basic stats averages and store in historic_features
     for feature in past_7_features:
         historic_features[f'{feature}_average'] = [df[feature].mean()]
 
+    #Create dataframe that contains all new averages
     historic_features_df = pd.DataFrame(historic_features)
 
     return historic_features_df
@@ -194,8 +200,10 @@ def predict_player_fdpoints(slug, location, opponent_id):
     else:
         pass
 
-def get_lineup(contest_df):
+#Function to get all predictions for players in contest over 3500 salary
+def get_predictions(contest_df):
 
+    #Create empty dataframe to hold all projections
     predictions_df = pd.DataFrame(columns=[
         'slug', 'projected_fd_pts',
         'pts_spread', 'position', 'salary'
@@ -248,10 +256,14 @@ def get_lineup(contest_df):
 
     return pgs,sgs,sfs,pfs,cs
 
+#Function to get optimized lineup
 def get_optimized_lineup(pgs,sgs,sfs,pfs,cs):
 
+    #Make empty dictionaries that will hold salary and points info for each player
     salaries = {}
     points = {}
+
+    #Fill salaries and points dictionaries with player info
     for position in [pgs,sgs,sfs,pfs,cs]:
         
         player_salaries = {}
@@ -266,6 +278,7 @@ def get_optimized_lineup(pgs,sgs,sfs,pfs,cs):
         salaries[position_dictionary_key] = player_salaries
         points[position_dictionary_key] = player_points
 
+    #Set lineup constraints
     pos_num_available = {
         "PG": 2,
         "SG": 2,
@@ -274,29 +287,36 @@ def get_optimized_lineup(pgs,sgs,sfs,pfs,cs):
         "C": 1
     }
 
+    #Salary cap constraints
     SALARY_CAP = 60000
     MINIMUM_SALARY_USE = 59000
 
+    #Binary variable to determine if player is included or excluded in lineup
     _vars = {k: LpVariable.dict(k, v, cat="Binary") for k, v in points.items()}
 
+    #Set problem as maximize 
     prob = LpProblem("Fantasy", LpMaximize)
     rewards = []
     costs = []
     position_constraints = []
     
+    #Insert problem constraints into LpProblem object
     for k, v in _vars.items():
         costs += lpSum([salaries[k][i] * _vars[k][i] for i in v])
         rewards += lpSum([points[k][i] * _vars[k][i] for i in v])
         prob += lpSum([_vars[k][i] for i in v]) == pos_num_available[k]
-        
+    
     prob += lpSum(rewards)
     prob += lpSum(costs) <= SALARY_CAP
     prob += lpSum(costs) >= MINIMUM_SALARY_USE
 
+    #Solve problem
     prob.solve()
 
+    #Create empty dataframe top hold optimal lineup
     optimized_lineup_df = pd.DataFrame(columns=['Player','Salary','Position'])
     
+    #Fill optimized_lineup_df with optimized lineup
     for v in prob.variables():
     
         score = str(prob.objective)

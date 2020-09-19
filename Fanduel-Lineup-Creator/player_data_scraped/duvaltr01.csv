@@ -1,4 +1,0 @@
-,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
-0,2019-02-08,duvaltr01,Trevon Duval,225,[<Position.POINT_GUARD: 'POINT GUARD'>],3.5,Location.AWAY,DALLAS_MAVERICKS,6,2,53,1,1,0,0,0,0,0,0,1,0,0,0,2.4
-1,2019-02-09,duvaltr01,Trevon Duval,225,[<Position.POINT_GUARD: 'POINT GUARD'>],5.7,Location.HOME,ORLANDO_MAGIC,21,3,266,1,2,1,1,0,0,0,1,1,0,0,0,3.0
-2,2019-02-11,duvaltr01,Trevon Duval,225,[<Position.POINT_GUARD: 'POINT GUARD'>],0.0,Location.AWAY,CHICAGO_BULLS,4,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0.0
