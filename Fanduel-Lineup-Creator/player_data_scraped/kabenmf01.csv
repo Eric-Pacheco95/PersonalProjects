@@ -1,0 +1,13 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2019-10-24,kabenmf01,Mfiondu Kabengele,425,[<Position.CENTER: 'CENTER'>],7.2,Location.AWAY,GOLDEN_STATE_WARRIORS,9,3,246,1,1,1,1,0,0,0,1,0,0,1,0,3.3
+1,2019-10-28,kabenmf01,Mfiondu Kabengele,425,[<Position.CENTER: 'CENTER'>],0.0,Location.HOME,CHARLOTTE_HORNETS,3,0,68,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2,2019-10-30,kabenmf01,Mfiondu Kabengele,425,[<Position.CENTER: 'CENTER'>],0.0,Location.AWAY,UTAH_JAZZ,28,0,82,0,1,0,1,0,0,0,0,0,0,0,0,-0.7
+3,2019-11-16,kabenmf01,Mfiondu Kabengele,425,[<Position.CENTER: 'CENTER'>],12.4,Location.HOME,ATLANTA_HAWKS,0,10,451,3,4,2,3,2,2,0,2,0,0,0,0,8.2
+4,2019-12-01,kabenmf01,Mfiondu Kabengele,425,[<Position.CENTER: 'CENTER'>],0.0,Location.HOME,WASHINGTON_WIZARDS,29,0,308,0,3,0,0,0,0,0,0,0,0,0,0,-2.1
+5,2019-12-03,kabenmf01,Mfiondu Kabengele,425,[<Position.CENTER: 'CENTER'>],3.0,Location.HOME,PORTLAND_TRAIL_BLAZERS,24,3,237,1,1,1,1,0,0,0,0,0,0,0,0,2.7
+6,2019-12-06,kabenmf01,Mfiondu Kabengele,425,[<Position.CENTER: 'CENTER'>],10.4,Location.AWAY,MILWAUKEE_BUCKS,16,5,565,2,7,0,3,1,1,0,2,0,1,0,0,2.5
+7,2019-12-08,kabenmf01,Mfiondu Kabengele,425,[<Position.CENTER: 'CENTER'>],1.7000000000000002,Location.AWAY,WASHINGTON_WIZARDS,29,0,113,0,1,0,1,0,0,1,0,1,0,0,1,-0.3
+8,2019-12-11,kabenmf01,Mfiondu Kabengele,425,[<Position.CENTER: 'CENTER'>],4.2,Location.AWAY,TORONTO_RAPTORS,27,3,181,1,1,1,1,0,0,0,1,0,0,0,0,2.6
+9,2019-12-21,kabenmf01,Mfiondu Kabengele,425,[<Position.CENTER: 'CENTER'>],6.2,Location.AWAY,SAN_ANTONIO_SPURS,26,5,408,2,3,1,1,0,0,0,1,0,0,0,0,3.2
+10,2020-02-08,kabenmf01,Mfiondu Kabengele,425,[<Position.CENTER: 'CENTER'>],11.9,Location.AWAY,MINNESOTA_TIMBERWOLVES,17,5,624,2,4,1,2,0,0,0,2,1,0,1,0,5.0
+11,2020-02-09,kabenmf01,Mfiondu Kabengele,425,[<Position.CENTER: 'CENTER'>],11.2,Location.AWAY,CLEVELAND_CAVALIERS,5,8,582,2,6,2,6,2,2,0,1,0,1,0,1,3.7

@@ -1,0 +1,10 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2016-11-15,hunterj01,R.J. Hunter,369,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],0.0,Location.AWAY,PORTLAND_TRAIL_BLAZERS,24,0,228,0,1,0,1,0,0,0,0,0,0,0,0,-0.7
+1,2016-11-25,hunterj01,R.J. Hunter,369,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],1.2,Location.AWAY,PHILADELPHIA_76ERS,22,0,215,0,0,0,0,0,0,0,1,0,0,0,0,0.3
+2,2016-12-03,hunterj01,R.J. Hunter,369,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],0.0,Location.AWAY,DALLAS_MAVERICKS,6,0,106,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+3,2018-01-15,hunterj01,R.J. Hunter,369,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],2.7,Location.AWAY,LOS_ANGELES_CLIPPERS,12,0,63,0,0,0,0,0,0,0,1,1,0,0,0,1.0
+4,2018-01-18,hunterj01,R.J. Hunter,369,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],1.5,Location.HOME,MINNESOTA_TIMBERWOLVES,17,0,37,0,0,0,0,0,0,0,0,1,0,0,0,0.7
+5,2018-03-25,hunterj01,R.J. Hunter,369,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],0.0,Location.HOME,ATLANTA_HAWKS,0,0,209,0,1,0,1,0,0,0,0,0,0,0,0,-0.7
+6,2018-03-27,hunterj01,R.J. Hunter,369,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],3.0,Location.HOME,CHICAGO_BULLS,4,0,602,0,3,0,2,0,0,0,0,0,1,0,0,-1.9
+7,2018-04-11,hunterj01,R.J. Hunter,369,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],29.3,Location.AWAY,SACRAMENTO_KINGS,25,19,1794,7,16,3,11,2,2,0,4,1,2,0,2,10.5
+8,2019-04-09,hunterj01,R.J. Hunter,369,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],28.1,Location.AWAY,WASHINGTON_WIZARDS,29,17,1541,6,13,4,10,1,2,1,2,3,1,0,0,13.1

@@ -1,0 +1,10 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2020-08-01,bolbo01,Bol Bol,85,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],9.3,Location.HOME,MIAMI_HEAT,15,5,710,2,4,0,1,1,1,2,2,1,0,0,2,3.7
+1,2020-08-03,bolbo01,Bol Bol,85,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],2.0,Location.AWAY,OKLAHOMA_CITY_THUNDER,20,3,221,1,2,1,1,0,0,0,0,0,0,0,1,0.6
+2,2020-08-06,bolbo01,Bol Bol,85,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],20.5,Location.HOME,PORTLAND_TRAIL_BLAZERS,24,9,1483,4,7,1,2,0,0,1,4,1,1,1,2,6.4
+3,2020-08-08,bolbo01,Bol Bol,85,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],0.0,Location.HOME,UTAH_JAZZ,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+4,2020-08-10,bolbo01,Bol Bol,85,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],19.0,Location.AWAY,LOS_ANGELES_LAKERS,13,8,1289,2,5,1,2,3,4,0,5,2,0,1,1,6.3
+5,2020-08-12,bolbo01,Bol Bol,85,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],12.2,Location.HOME,LOS_ANGELES_CLIPPERS,12,7,586,3,4,1,2,0,0,1,0,0,1,1,2,5.4
+6,2020-08-14,bolbo01,Bol Bol,85,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],22.8,Location.AWAY,TORONTO_RAPTORS,27,8,927,2,6,0,1,4,5,1,3,2,0,3,2,6.5
+7,2020-08-19,bolbo01,Bol Bol,85,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],5.2,Location.HOME,UTAH_JAZZ,28,2,249,0,0,0,0,2,2,0,1,0,0,1,1,2.0
+8,2020-08-21,bolbo01,Bol Bol,85,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],16.4,Location.AWAY,UTAH_JAZZ,28,11,524,3,7,1,2,4,4,2,0,0,1,0,0,9.3

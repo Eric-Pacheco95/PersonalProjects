@@ -1,0 +1,2 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2019-02-27,siberjo01,Jordan Sibert,711,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],3.0,Location.HOME,MINNESOTA_TIMBERWOLVES,17,3,254,1,1,1,1,0,0,0,0,0,0,0,0,2.7

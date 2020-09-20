@@ -1,0 +1,12 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2019-10-25,willini01,Nigel Williams-Goss,837,[<Position.POINT_GUARD: 'POINT GUARD'>],0.0,Location.AWAY,LOS_ANGELES_LAKERS,13,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+1,2019-10-26,willini01,Nigel Williams-Goss,837,[<Position.POINT_GUARD: 'POINT GUARD'>],1.5,Location.HOME,SACRAMENTO_KINGS,25,0,282,0,1,0,1,0,0,0,0,1,0,0,0,-0.4
+2,2019-10-30,willini01,Nigel Williams-Goss,837,[<Position.POINT_GUARD: 'POINT GUARD'>],-1.0,Location.HOME,LOS_ANGELES_CLIPPERS,12,0,82,0,0,0,0,0,0,0,0,0,0,0,1,-1.0
+3,2019-11-11,willini01,Nigel Williams-Goss,837,[<Position.POINT_GUARD: 'POINT GUARD'>],0.0,Location.AWAY,GOLDEN_STATE_WARRIORS,9,0,111,0,1,0,0,0,0,0,0,0,0,0,0,-0.7
+4,2019-12-01,willini01,Nigel Williams-Goss,837,[<Position.POINT_GUARD: 'POINT GUARD'>],4.4,Location.AWAY,TORONTO_RAPTORS,27,2,394,0,2,0,0,2,2,1,1,0,0,0,0,1.6
+5,2019-12-04,willini01,Nigel Williams-Goss,837,[<Position.POINT_GUARD: 'POINT GUARD'>],4.5,Location.HOME,LOS_ANGELES_LAKERS,13,0,231,0,1,0,0,0,0,0,0,1,0,1,0,0.7
+6,2019-12-09,willini01,Nigel Williams-Goss,837,[<Position.POINT_GUARD: 'POINT GUARD'>],0.0,Location.HOME,OKLAHOMA_CITY_THUNDER,20,0,165,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+7,2019-12-30,willini01,Nigel Williams-Goss,837,[<Position.POINT_GUARD: 'POINT GUARD'>],7.4,Location.HOME,DETROIT_PISTONS,8,0,148,0,0,0,0,0,0,1,1,2,1,0,1,2.4
+8,2020-01-08,willini01,Nigel Williams-Goss,837,[<Position.POINT_GUARD: 'POINT GUARD'>],4.7,Location.HOME,NEW_YORK_KNICKS,19,2,216,1,2,0,1,0,0,0,1,1,0,0,0,1.6
+9,2020-08-13,willini01,Nigel Williams-Goss,837,[<Position.POINT_GUARD: 'POINT GUARD'>],17.7,Location.HOME,SAN_ANTONIO_SPURS,26,10,1331,4,9,2,5,0,0,0,1,1,2,0,1,5.7
+10,2020-08-19,willini01,Nigel Williams-Goss,837,[<Position.POINT_GUARD: 'POINT GUARD'>],1.5,Location.AWAY,DENVER_NUGGETS,7,0,143,0,0,0,0,0,0,0,0,1,0,0,0,0.7

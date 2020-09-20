@@ -1,0 +1,8 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2016-11-01,hilljo01,Jordan Hill,347,[<Position.CENTER: 'CENTER'>],5.6,Location.HOME,MEMPHIS_GRIZZLIES,14,4,270,2,3,0,0,0,0,2,1,0,0,0,2,1.2
+1,2016-11-05,hilljo01,Jordan Hill,347,[<Position.CENTER: 'CENTER'>],5.6,Location.AWAY,OKLAHOMA_CITY_THUNDER,20,2,375,0,0,0,0,2,2,1,2,0,0,0,0,3.3
+2,2016-12-09,hilljo01,Jordan Hill,347,[<Position.CENTER: 'CENTER'>],0.0,Location.HOME,DETROIT_PISTONS,8,0,285,0,0,0,0,0,0,0,0,0,0,0,0,-0.4
+3,2016-12-25,hilljo01,Jordan Hill,347,[<Position.CENTER: 'CENTER'>],13.2,Location.AWAY,OKLAHOMA_CITY_THUNDER,20,4,1116,2,7,0,0,0,0,3,3,0,1,0,1,0.9
+4,2016-12-26,hilljo01,Jordan Hill,347,[<Position.CENTER: 'CENTER'>],1.2,Location.HOME,ATLANTA_HAWKS,0,0,331,0,1,0,0,0,0,1,0,0,0,0,0,0.0
+5,2017-03-17,hilljo01,Jordan Hill,347,[<Position.CENTER: 'CENTER'>],0.0,Location.AWAY,MIAMI_HEAT,15,0,72,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+6,2017-04-04,hilljo01,Jordan Hill,347,[<Position.CENTER: 'CENTER'>],2.2,Location.AWAY,GOLDEN_STATE_WARRIORS,9,2,345,1,2,0,0,0,0,1,0,0,0,0,1,0.7

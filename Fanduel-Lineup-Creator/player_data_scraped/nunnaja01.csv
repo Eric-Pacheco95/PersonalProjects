@@ -1,0 +1,16 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2018-10-26,nunnaja01,James Nunnally,589,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],9.0,Location.HOME,MILWAUKEE_BUCKS,16,9,232,2,4,2,4,3,3,0,0,0,0,0,0,7.0
+1,2018-10-31,nunnaja01,James Nunnally,589,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],10.1,Location.HOME,UTAH_JAZZ,28,2,1285,1,2,0,0,0,0,0,3,3,0,0,0,3.2
+2,2018-11-02,nunnaja01,James Nunnally,589,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],0.0,Location.AWAY,GOLDEN_STATE_WARRIORS,9,0,199,0,2,0,2,0,0,0,0,0,0,0,0,-1.4
+3,2018-11-04,nunnaja01,James Nunnally,589,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],5.0,Location.AWAY,PORTLAND_TRAIL_BLAZERS,24,3,372,1,2,0,1,1,1,0,0,0,1,0,1,2.0
+4,2018-11-09,nunnaja01,James Nunnally,589,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],2.0,Location.AWAY,SACRAMENTO_KINGS,25,2,257,1,2,0,0,0,0,0,0,0,0,0,0,0.6
+5,2018-11-16,nunnaja01,James Nunnally,589,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],0.0,Location.HOME,PORTLAND_TRAIL_BLAZERS,24,0,38,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+6,2018-11-28,nunnaja01,James Nunnally,589,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],1.5,Location.HOME,SAN_ANTONIO_SPURS,26,0,311,0,2,0,2,0,0,0,0,1,0,0,0,-0.7
+7,2018-12-05,nunnaja01,James Nunnally,589,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],1.5,Location.HOME,CHARLOTTE_HORNETS,3,0,91,0,1,0,0,0,0,0,0,1,0,0,0,0.0
+8,2018-12-17,nunnaja01,James Nunnally,589,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],5.0,Location.HOME,SACRAMENTO_KINGS,25,5,361,2,4,1,2,0,0,0,0,0,0,0,0,3.0
+9,2018-12-21,nunnaja01,James Nunnally,589,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],7.2,Location.AWAY,SAN_ANTONIO_SPURS,26,6,259,2,2,2,2,0,0,0,1,0,0,0,0,5.3
+10,2018-12-26,nunnaja01,James Nunnally,589,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],0.0,Location.AWAY,CHICAGO_BULLS,4,0,125,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+11,2019-01-02,nunnaja01,James Nunnally,589,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],0.0,Location.AWAY,BOSTON_CELTICS,1,0,159,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+12,2019-01-04,nunnaja01,James Nunnally,589,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],0.0,Location.HOME,ORLANDO_MAGIC,21,0,151,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+13,2019-01-16,nunnaja01,James Nunnally,589,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],13.2,Location.HOME,BROOKLYN_NETS,2,9,1472,3,8,3,7,0,0,0,1,2,0,0,0,4.3
+14,2019-01-19,nunnaja01,James Nunnally,589,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],0.0,Location.HOME,LOS_ANGELES_LAKERS,13,0,779,0,5,0,5,0,0,0,0,0,0,0,0,-3.9

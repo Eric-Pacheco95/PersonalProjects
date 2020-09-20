@@ -1,0 +1,5 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2017-12-01,huntevi01,Vince Hunter,370,[<Position.POWER_FORWARD: 'POWER FORWARD'>],3.4000000000000004,Location.HOME,SAN_ANTONIO_SPURS,26,2,163,1,1,0,0,0,0,1,1,0,0,0,1,1.7
+1,2017-12-11,huntevi01,Vince Hunter,370,[<Position.POWER_FORWARD: 'POWER FORWARD'>],2.0,Location.HOME,MIAMI_HEAT,15,2,112,1,1,0,0,0,0,0,0,0,0,0,0,1.7
+2,2017-12-16,huntevi01,Vince Hunter,370,[<Position.POWER_FORWARD: 'POWER FORWARD'>],0.0,Location.HOME,BOSTON_CELTICS,1,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+3,2017-12-20,huntevi01,Vince Hunter,370,[<Position.POWER_FORWARD: 'POWER FORWARD'>],6.2,Location.AWAY,GOLDEN_STATE_WARRIORS,9,2,141,1,3,0,0,0,0,1,0,0,0,1,0,1.7

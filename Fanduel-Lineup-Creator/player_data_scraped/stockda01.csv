@@ -1,0 +1,4 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2018-03-25,stockda01,David Stockton,735,[<Position.POINT_GUARD: 'POINT GUARD'>],1.0,Location.AWAY,GOLDEN_STATE_WARRIORS,9,2,180,0,0,0,0,2,2,0,0,0,0,0,1,0.6
+1,2018-04-01,stockda01,David Stockton,735,[<Position.POINT_GUARD: 'POINT GUARD'>],5.0,Location.AWAY,MINNESOTA_TIMBERWOLVES,17,5,208,1,2,1,2,2,2,0,0,0,0,0,0,3.6
+2,2018-04-05,stockda01,David Stockton,735,[<Position.POINT_GUARD: 'POINT GUARD'>],3.0,Location.HOME,LOS_ANGELES_CLIPPERS,12,3,172,1,1,1,1,0,0,0,0,0,0,0,0,2.3

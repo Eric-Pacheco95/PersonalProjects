@@ -1,0 +1,6 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2019-01-25,creekmi01,Mitch Creek,184,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],1.0,Location.HOME,NEW_YORK_KNICKS,19,1,2,0,0,0,0,1,2,0,0,0,0,0,0,0.6
+1,2019-01-28,creekmi01,Mitch Creek,184,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],16.5,Location.AWAY,BOSTON_CELTICS,1,6,1117,2,5,0,0,2,2,1,4,1,1,0,0,6.1
+2,2019-02-02,creekmi01,Mitch Creek,184,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],0.0,Location.AWAY,ORLANDO_MAGIC,21,0,98,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+3,2019-02-04,creekmi01,Mitch Creek,184,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],20.0,Location.HOME,MILWAUKEE_BUCKS,16,8,921,3,5,0,1,2,3,4,1,4,0,0,0,10.8
+4,2019-04-09,creekmi01,Mitch Creek,184,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],11.9,Location.HOME,TORONTO_RAPTORS,27,6,691,3,6,0,1,0,0,1,1,1,1,0,1,4.7

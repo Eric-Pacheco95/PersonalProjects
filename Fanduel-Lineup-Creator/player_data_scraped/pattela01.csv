@@ -1,0 +1,6 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2017-02-01,pattela01,Lamar Patterson,620,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],6.800000000000001,Location.AWAY,MIAMI_HEAT,15,4,720,2,5,0,1,0,1,1,3,0,0,0,2,-0.3
+1,2017-02-04,pattela01,Lamar Patterson,620,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],0.0,Location.HOME,ORLANDO_MAGIC,21,0,278,0,0,0,0,0,0,0,0,0,0,0,0,-1.2
+2,2017-02-06,pattela01,Lamar Patterson,620,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],2.0,Location.HOME,UTAH_JAZZ,28,2,218,0,3,0,1,2,2,0,0,0,0,0,0,-0.1
+3,2017-02-15,pattela01,Lamar Patterson,620,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],10.9,Location.AWAY,LOS_ANGELES_CLIPPERS,12,3,611,1,4,1,3,0,0,0,2,3,1,0,2,1.9
+4,2017-02-24,pattela01,Lamar Patterson,620,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],5.7,Location.HOME,MIAMI_HEAT,15,0,595,0,3,0,1,0,0,0,1,3,0,0,0,0.3

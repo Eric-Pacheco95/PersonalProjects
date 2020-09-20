@@ -1,0 +1,2 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2019-01-21,lucaska01,Kalin Lucas,481,[<Position.POINT_GUARD: 'POINT GUARD'>],7.1,Location.AWAY,WASHINGTON_WIZARDS,29,2,335,0,1,0,1,2,2,0,3,1,0,0,0,2.5

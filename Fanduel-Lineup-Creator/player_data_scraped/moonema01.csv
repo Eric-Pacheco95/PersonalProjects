@@ -1,0 +1,5 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2020-01-20,moonema01,Matt Mooney,548,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],7.7,Location.HOME,NEW_YORK_KNICKS,19,2,178,1,2,0,1,0,0,0,1,1,0,1,0,2.7
+1,2020-01-28,moonema01,Matt Mooney,548,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],0.0,Location.HOME,NEW_ORLEANS_PELICANS,18,0,98,0,0,0,0,0,0,0,0,0,0,0,0,-0.4
+2,2020-03-02,moonema01,Matt Mooney,548,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],3.0,Location.HOME,UTAH_JAZZ,28,0,74,0,0,0,0,0,0,0,0,0,1,0,0,1.0
+3,2020-03-10,moonema01,Matt Mooney,548,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],5.4,Location.AWAY,CHICAGO_BULLS,4,0,775,0,2,0,1,0,0,0,2,0,1,0,0,0.2

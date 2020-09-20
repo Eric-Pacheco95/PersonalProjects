@@ -1,0 +1,2 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2020-02-09,newmama01,Malik Newman,578,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],1.0,Location.HOME,LOS_ANGELES_CLIPPERS,12,2,221,0,2,0,1,2,2,0,0,0,0,0,1,-0.4

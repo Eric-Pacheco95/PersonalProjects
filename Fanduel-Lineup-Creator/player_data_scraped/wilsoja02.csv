@@ -1,0 +1,16 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2017-11-20,wilsoja02,Jamil Wilson,843,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],1.2,Location.AWAY,NEW_YORK_KNICKS,19,0,99,0,0,0,0,0,0,0,1,0,0,0,0,0.3
+1,2017-11-30,wilsoja02,Jamil Wilson,843,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],6.2,Location.HOME,UTAH_JAZZ,28,6,290,2,3,2,3,0,0,0,1,0,0,0,1,4.0
+2,2017-12-02,wilsoja02,Jamil Wilson,843,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],11.9,Location.AWAY,DALLAS_MAVERICKS,6,8,868,3,5,2,4,0,0,2,0,1,0,0,0,7.4
+3,2017-12-03,wilsoja02,Jamil Wilson,843,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],10.7,Location.AWAY,MINNESOTA_TIMBERWOLVES,17,9,1715,3,8,3,8,0,0,0,1,1,0,0,1,3.0
+4,2017-12-06,wilsoja02,Jamil Wilson,843,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],10.7,Location.HOME,MINNESOTA_TIMBERWOLVES,17,5,978,2,5,1,3,0,0,1,0,3,0,0,0,4.7
+5,2017-12-09,wilsoja02,Jamil Wilson,843,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],3.4000000000000004,Location.HOME,WASHINGTON_WIZARDS,29,2,713,1,1,0,0,0,0,0,2,0,0,0,1,0.5
+6,2017-12-11,wilsoja02,Jamil Wilson,843,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],2.4,Location.HOME,TORONTO_RAPTORS,27,0,550,0,3,0,3,0,0,0,2,0,0,0,0,-1.9
+7,2017-12-13,wilsoja02,Jamil Wilson,843,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],13.1,Location.AWAY,ORLANDO_MAGIC,21,9,1331,3,4,2,3,1,2,0,3,1,0,0,1,6.8
+8,2017-12-15,wilsoja02,Jamil Wilson,843,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],22.4,Location.AWAY,WASHINGTON_WIZARDS,29,10,1351,4,10,1,4,1,2,0,2,2,0,3,2,4.7
+9,2017-12-16,wilsoja02,Jamil Wilson,843,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],16.8,Location.AWAY,MIAMI_HEAT,15,9,1429,3,7,3,5,0,0,0,4,0,0,1,0,6.4
+10,2017-12-18,wilsoja02,Jamil Wilson,843,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],23.4,Location.AWAY,SAN_ANTONIO_SPURS,26,13,1630,5,12,3,10,0,0,0,2,0,3,0,1,7.2
+11,2017-12-20,wilsoja02,Jamil Wilson,843,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],21.8,Location.HOME,PHOENIX_SUNS,23,11,1705,4,7,3,6,0,0,0,4,0,0,2,0,9.5
+12,2017-12-22,wilsoja02,Jamil Wilson,843,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],5.4,Location.AWAY,HOUSTON_ROCKETS,10,3,1369,1,3,1,3,0,0,0,2,0,0,0,0,-0.5
+13,2017-12-23,wilsoja02,Jamil Wilson,843,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],10.8,Location.AWAY,MEMPHIS_GRIZZLIES,14,3,1265,1,4,1,4,0,0,0,4,2,0,0,0,2.0
+14,2017-12-26,wilsoja02,Jamil Wilson,843,[<Position.SMALL_FORWARD: 'SMALL FORWARD'>],29.2,Location.HOME,SACRAMENTO_KINGS,25,17,1134,6,9,5,7,0,0,0,1,0,2,2,1,15.4

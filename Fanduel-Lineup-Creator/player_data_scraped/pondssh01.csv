@@ -1,0 +1,5 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2019-11-27,pondssh01,Shamorie Ponds,641,[<Position.POINT_GUARD: 'POINT GUARD'>],8.2,Location.HOME,NEW_YORK_KNICKS,19,4,352,2,3,0,1,0,0,0,1,2,0,0,0,3.6
+1,2019-12-01,pondssh01,Shamorie Ponds,641,[<Position.POINT_GUARD: 'POINT GUARD'>],3.0,Location.HOME,UTAH_JAZZ,28,0,101,0,1,0,0,0,0,0,0,0,0,1,0,0.0
+2,2019-12-14,pondssh01,Shamorie Ponds,641,[<Position.POINT_GUARD: 'POINT GUARD'>],0.0,Location.HOME,BROOKLYN_NETS,2,0,65,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+3,2019-12-31,pondssh01,Shamorie Ponds,641,[<Position.POINT_GUARD: 'POINT GUARD'>],5.0,Location.HOME,CLEVELAND_CAVALIERS,5,5,117,1,1,1,1,2,2,0,0,0,0,0,0,4.7

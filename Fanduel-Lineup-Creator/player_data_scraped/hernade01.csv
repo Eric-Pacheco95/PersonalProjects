@@ -1,0 +1,7 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2019-11-18,hernade01,Dewan Hernandez,334,[<Position.CENTER: 'CENTER'>],8.8,Location.HOME,CHARLOTTE_HORNETS,3,2,382,1,2,0,1,0,0,0,4,0,1,0,1,1.0
+1,2019-11-20,hernade01,Dewan Hernandez,334,[<Position.CENTER: 'CENTER'>],0.0,Location.HOME,ORLANDO_MAGIC,21,0,86,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2,2019-12-01,hernade01,Dewan Hernandez,334,[<Position.CENTER: 'CENTER'>],5.6,Location.HOME,UTAH_JAZZ,28,2,101,0,3,0,0,2,2,2,1,0,0,0,0,0.8
+3,2019-12-16,hernade01,Dewan Hernandez,334,[<Position.CENTER: 'CENTER'>],0.0,Location.HOME,CLEVELAND_CAVALIERS,5,0,112,0,0,0,0,0,0,0,0,0,0,0,0,-0.4
+4,2020-08-12,hernade01,Dewan Hernandez,334,[<Position.CENTER: 'CENTER'>],8.0,Location.AWAY,PHILADELPHIA_76ERS,22,6,252,2,3,1,1,1,3,0,0,2,0,0,1,4.3
+5,2020-08-14,hernade01,Dewan Hernandez,334,[<Position.CENTER: 'CENTER'>],12.9,Location.HOME,DENVER_NUGGETS,7,4,762,2,6,0,0,0,0,3,4,1,0,0,1,3.6

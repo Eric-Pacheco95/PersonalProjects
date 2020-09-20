@@ -1,0 +1,15 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2017-10-20,anigbik01,Ike Anigbogu,25,[<Position.CENTER: 'CENTER'>],0.0,Location.HOME,PORTLAND_TRAIL_BLAZERS,24,0,144,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+1,2017-10-24,anigbik01,Ike Anigbogu,25,[<Position.CENTER: 'CENTER'>],-1.0,Location.AWAY,MINNESOTA_TIMBERWOLVES,17,0,132,0,0,0,0,0,0,0,0,0,0,0,1,-1.0
+2,2017-10-25,anigbik01,Ike Anigbogu,25,[<Position.CENTER: 'CENTER'>],3.2,Location.AWAY,OKLAHOMA_CITY_THUNDER,20,0,142,0,1,0,0,0,0,1,0,0,1,0,1,0.0
+3,2017-10-31,anigbik01,Ike Anigbogu,25,[<Position.CENTER: 'CENTER'>],8.2,Location.HOME,SACRAMENTO_KINGS,25,4,295,1,2,0,0,2,2,1,0,0,0,1,0,4.0
+4,2017-11-10,anigbik01,Ike Anigbogu,25,[<Position.CENTER: 'CENTER'>],1.2,Location.AWAY,CHICAGO_BULLS,4,0,105,0,0,0,0,0,0,0,1,0,0,0,0,0.3
+5,2017-11-12,anigbik01,Ike Anigbogu,25,[<Position.CENTER: 'CENTER'>],1.2,Location.HOME,HOUSTON_ROCKETS,10,0,212,0,2,0,0,0,0,0,1,0,0,0,0,-1.1
+6,2017-12-31,anigbik01,Ike Anigbogu,25,[<Position.CENTER: 'CENTER'>],14.8,Location.HOME,MINNESOTA_TIMBERWOLVES,17,7,227,2,3,0,0,3,4,3,1,0,0,1,0,8.4
+7,2018-01-14,anigbik01,Ike Anigbogu,25,[<Position.CENTER: 'CENTER'>],6.2,Location.AWAY,PHOENIX_SUNS,23,2,290,1,1,0,0,0,0,0,1,0,0,1,0,2.7
+8,2018-01-15,anigbik01,Ike Anigbogu,25,[<Position.CENTER: 'CENTER'>],0.0,Location.AWAY,UTAH_JAZZ,28,0,65,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+9,2018-01-18,anigbik01,Ike Anigbogu,25,[<Position.CENTER: 'CENTER'>],0.0,Location.AWAY,PORTLAND_TRAIL_BLAZERS,24,0,45,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+10,2018-04-10,anigbik01,Ike Anigbogu,25,[<Position.CENTER: 'CENTER'>],0.0,Location.HOME,CHARLOTTE_HORNETS,3,0,130,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+11,2018-10-20,anigbik01,Ike Anigbogu,25,[<Position.CENTER: 'CENTER'>],3.2,Location.HOME,BROOKLYN_NETS,2,0,171,0,2,0,0,0,0,0,1,0,0,1,1,-1.4
+12,2018-11-23,anigbik01,Ike Anigbogu,25,[<Position.CENTER: 'CENTER'>],2.7,Location.HOME,SAN_ANTONIO_SPURS,26,0,74,0,1,0,0,0,0,1,0,1,0,0,0,0.7
+13,2018-11-26,anigbik01,Ike Anigbogu,25,[<Position.CENTER: 'CENTER'>],1.2,Location.AWAY,UTAH_JAZZ,28,0,124,0,0,0,0,0,0,0,1,0,0,0,0,0.3

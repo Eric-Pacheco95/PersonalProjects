@@ -1,0 +1,8 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2019-03-20,antetko01,Kostas Antetokounmpo,27,[<Position.POWER_FORWARD: 'POWER FORWARD'>],7.199999999999999,Location.AWAY,PORTLAND_TRAIL_BLAZERS,24,1,353,0,2,0,0,1,2,0,1,0,2,0,1,0.5
+1,2019-03-23,antetko01,Kostas Antetokounmpo,27,[<Position.POWER_FORWARD: 'POWER FORWARD'>],1.0,Location.AWAY,GOLDEN_STATE_WARRIORS,9,1,281,0,1,0,0,1,2,0,0,0,0,0,0,-0.1
+2,2019-10-25,antetko01,Kostas Antetokounmpo,27,[<Position.POWER_FORWARD: 'POWER FORWARD'>],0.0,Location.HOME,UTAH_JAZZ,28,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+3,2019-10-27,antetko01,Kostas Antetokounmpo,27,[<Position.POWER_FORWARD: 'POWER FORWARD'>],1.2,Location.HOME,CHARLOTTE_HORNETS,3,0,140,0,0,0,0,0,0,0,1,0,0,0,0,0.3
+4,2020-01-10,antetko01,Kostas Antetokounmpo,27,[<Position.POWER_FORWARD: 'POWER FORWARD'>],1.5,Location.AWAY,DALLAS_MAVERICKS,6,0,138,0,0,0,0,0,0,0,0,1,0,0,0,0.7
+5,2020-08-05,antetko01,Kostas Antetokounmpo,27,[<Position.POWER_FORWARD: 'POWER FORWARD'>],0.0,Location.HOME,OKLAHOMA_CITY_THUNDER,20,0,216,0,0,0,0,0,0,0,0,0,0,0,0,-0.4
+6,2020-08-13,antetko01,Kostas Antetokounmpo,27,[<Position.POWER_FORWARD: 'POWER FORWARD'>],9.9,Location.HOME,SACRAMENTO_KINGS,25,7,684,3,3,0,0,1,2,2,0,1,0,0,1,6.4

@@ -1,0 +1,4 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2017-11-20,pulleja01,Jacob Pullen,653,[<Position.POINT_GUARD: 'POINT GUARD'>],0.0,Location.HOME,UTAH_JAZZ,28,0,54,0,1,0,1,0,0,0,0,0,0,0,0,-0.7
+1,2017-11-25,pulleja01,Jacob Pullen,653,[<Position.POINT_GUARD: 'POINT GUARD'>],0.0,Location.HOME,ORLANDO_MAGIC,21,0,90,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2,2017-12-23,pulleja01,Jacob Pullen,653,[<Position.POINT_GUARD: 'POINT GUARD'>],1.0,Location.AWAY,TORONTO_RAPTORS,27,2,221,1,1,0,0,0,0,0,0,0,0,0,1,0.7

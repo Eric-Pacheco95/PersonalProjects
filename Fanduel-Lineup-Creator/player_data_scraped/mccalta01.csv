@@ -1,0 +1,2 @@
+,date,slug,name,player_id,positions,FD_pts_scored,location,opponent,opponent_id,points_scored,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,game_score
+0,2019-02-27,mccalta01,Tahjere McCall,507,[<Position.SHOOTING_GUARD: 'SHOOTING GUARD'>],5.2,Location.HOME,WASHINGTON_WIZARDS,29,4,478,2,3,0,1,0,1,0,1,0,0,0,0,1.8
