@@ -214,6 +214,10 @@ def get_predictions(contest_df):
         try:
 
             #Define parameters for player
+            player = contest_df.iloc[i]['Nickname']
+            player_name_split = player.split(' ')
+            first_name = player_name_split[0]
+            last_name = player_name_split[1]
             slug = contest_df.iloc[i]['slug']
             location = contest_df.iloc[i]['location']
             position = contest_df.iloc[i]['Position']
@@ -234,7 +238,9 @@ def get_predictions(contest_df):
                         'projected_fd_pts': prediction,
                         'pts_spread': pts_spread,
                         'position': position,
-                        'salary': salary
+                        'salary': salary,
+                        'first_name':first_name,
+                        'last_name':last_name
                     },
                     ignore_index=True)
             
@@ -262,21 +268,25 @@ def get_optimized_lineup(pgs,sgs,sfs,pfs,cs):
     #Make empty dictionaries that will hold salary and points info for each player
     salaries = {}
     points = {}
+    all_projected_fd_pts = {}
 
     #Fill salaries and points dictionaries with player info
     for position in [pgs,sgs,sfs,pfs,cs]:
         
         player_salaries = {}
         player_points = {}
+        player_fd_pts = {}
         position_dictionary_key = position[0][3]
         
         for player in position:
             
             player_salaries[player[0]] = player[4]
             player_points[player[0]] = player[2]
+            player_fd_pts[player[0]] = player[1]
             
         salaries[position_dictionary_key] = player_salaries
         points[position_dictionary_key] = player_points
+        all_projected_fd_pts[position_dictionary_key] = player_fd_pts
 
     #Set lineup constraints
     pos_num_available = {
@@ -314,7 +324,7 @@ def get_optimized_lineup(pgs,sgs,sfs,pfs,cs):
     prob.solve()
 
     #Create empty dataframe top hold optimal lineup
-    optimized_lineup_df = pd.DataFrame(columns=['Player','Salary','Position'])
+    optimized_lineup_df = pd.DataFrame(columns=['First_Name','Last_Name','Salary','Position','Image_File_Path','projected_fd_pts'])
     
     #Fill optimized_lineup_df with optimized lineup
     for v in prob.variables():
@@ -330,15 +340,23 @@ def get_optimized_lineup(pgs,sgs,sfs,pfs,cs):
             position = v_str_split[0]
             
             player = player_slugs_then_names[slug]
+            player_name_split = player.split(' ')
+            first_name = player_name_split[0]
+            last_name = player_name_split[1]
             salary = salaries[position][slug]
+            projected_fd_pts = all_projected_fd_pts[position][slug]
+            img_file_path = f'static/images/player_images/{first_name.lower()}_{last_name.lower()}.png'
             
             new_row = {
-                'Player':player,
+                'First_Name':first_name,
+                'Last_Name':last_name,
                 'Salary':salary,
-                'Position':position
+                'Position':position,
+                'Image_File_Path':img_file_path,
+                'projected_fd_pts':round(projected_fd_pts, 2)
             }
             
             optimized_lineup_df = optimized_lineup_df.append(new_row,ignore_index=True)
     
-    return optimized_lineup_df
+    return optimized_lineup_df.values
             

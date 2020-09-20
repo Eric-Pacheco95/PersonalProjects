@@ -21,9 +21,7 @@ def home():
 
                 optimized_lineup = get_optimized_lineup(pgs,sgs,sfs,pfs,cs)
 
-                return render_template('results.html',
-                                    tables=[optimized_lineup.to_html(classes='data')],
-                                    titles=['Optimal Lineup'])
+                return render_template('results.html', pgs=pgs, sgs=sgs, sfs=sfs, pfs=pfs, cs=cs, optimized_lineup=optimized_lineup)
             
             except Exception as e:
                 return render_template('app_error.html')

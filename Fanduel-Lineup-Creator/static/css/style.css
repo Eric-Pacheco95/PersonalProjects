@@ -113,3 +113,23 @@ body {
     display: block;
 }
 
+.optimized-lineup {
+    width:90%;
+    float:left;
+    margin-left:10%;
+}
+
+.optimized-lineup-box {
+    background-color: white;
+    border: solid;
+    border-radius: 2px;
+}
+
+.player-row {
+    height: 70px;
+}
+
+.player-text {
+    color:rgb(21, 159, 209);
+    margin-top:10%;
+}

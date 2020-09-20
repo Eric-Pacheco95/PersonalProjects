@@ -1,9 +1,50 @@
 {% extends 'layout.html' %}
 {% block body %}
 
-{% for table in tables %}
-{{titles[loop.index0]}}
-{{ table|safe }}
-{% endfor %}
+<h1 style='margin-left:12%; margin-top:5%;'>Optimal Contest Lineup</h1>
+<div class='container optimized-lineup'>
+    <div class='col-8 optimized-lineup-box'>
+        <br>
+        <div class='row player-row'>
+            <div class='col-2'>
+                <span></span>
+            </div>
+            <div class='col-2'>
+                <h5>Player</h5>
+            </div>
+            <div class='col-2'>
+                <h5>Position</h5>
+            </div>
+            <div class='col-2'>
+                <h5>Salary</h5>
+            </div>
+            <div class='col-4'>
+                <h5>Projected Points</h5>
+            </div>
+        </div>
+        <hr>
+        {% for player in optimized_lineup %}
+        <div class='row player-row'>
+            <div class='col-2'>
+                <span><img src="{{ player[4] }}" alt="{{ player[0] + ' ' + player[1]}}" height = 70 width = 100></span>
+            </div>
+            <div class='col-2'>
+                <span class='player-text'>{{ player[0] + ' ' + player[1] }}</span>
+            </div>
+            <div class='col-2'>
+                <span class='player-text'>{{ player[3] }}</span>
+            </div>
+            <div class='col-2'>
+                <span class='player-text'>{{ player[2] }}</span>
+            </div>
+            <div class='col-4'>
+                <span class='player-text'>{{ player[5] }}</span>
+            </div>
+        </div>
+        <hr>
+        {% endfor %}
+    </div>  
+</div>
+
 
 {% endblock %}
