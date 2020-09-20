@@ -3,7 +3,7 @@
 
 <h1 style='margin-left:12%; margin-top:5%;'>Optimal Contest Lineup</h1>
 <div class='container optimized-lineup'>
-    <div class='col-8 optimized-lineup-box'>
+    <div class='col-lg-8 optimized-lineup-box'>
         <br>
         <div class='row player-row'>
             <div class='col-2'>
@@ -43,7 +43,119 @@
         </div>
         <hr>
         {% endfor %}
-    </div>  
+    </div>
+    <div class='row'>
+        <div class='col-lg-2 top-value-picks'>
+            <h3>Top Value Point Guards</h3>
+            <div class='row'>
+                <div class='col-6'>
+                    <h6>Player</h6>
+                </div>
+                <div class='col-6'>
+                    <h6>Salary</h6>
+                </div>
+            </div>
+            
+            {% for player in pgs %}
+            <div class='row top-value-row'>
+                <div class='col-6'>
+                    <h10>{{ player[5] + ' ' + player[6] }}</h10>
+                </div>
+                <div class='col-6'>
+                    <h10>{{ player[4] }}</h10>
+                </div>
+            </div>       
+            {% endfor %}
+        </div>
+        <div class='col-lg-2 top-value-picks'>
+            <h3>Top Value Shooting Guards</h3>
+            <div class='row'>
+                <div class='col-6'>
+                    <h6>Player</h6>
+                </div>
+                <div class='col-6'>
+                    <h6>Salary</h6>
+                </div>
+            </div>
+            
+            {% for player in sgs %}
+            <div class='row top-value-row'>
+                <div class='col-6'>
+                    <h10>{{ player[5] + ' ' + player[6] }}</h10>
+                </div>
+                <div class='col-6'>
+                    <h10>{{ player[4] }}</h10>
+                </div>
+            </div>       
+            {% endfor %}
+        </div>
+        <div class='col-lg-2 top-value-picks'>
+            <h3>Top Value Small Forwards</h3>
+            <div class='row'>
+                <div class='col-6'>
+                    <h6>Player</h6>
+                </div>
+                <div class='col-6'>
+                    <h6>Salary</h6>
+                </div>
+            </div>
+            
+            {% for player in sfs %}
+            <div class='row top-value-row'>
+                <div class='col-6'>
+                    <h10>{{ player[5] + ' ' + player[6] }}</h10>
+                </div>
+                <div class='col-6'>
+                    <h10>{{ player[4] }}</h10>
+                </div>
+            </div>       
+            {% endfor %}
+        </div>
+        <div class='col-lg-2 top-value-picks'>
+            <h3>Top Value Power Forwards</h3>
+            <div class='row'>
+                <div class='col-6'>
+                    <h6>Player</h6>
+                </div>
+                <div class='col-6'>
+                    <h6>Salary</h6>
+                </div>
+            </div>
+            
+            {% for player in pfs %}
+            <div class='row top-value-row'>
+                <div class='col-6'>
+                    <h10>{{ player[5] + ' ' + player[6] }}</h10>
+                </div>
+                <div class='col-6'>
+                    <h10>{{ player[4] }}</h10>
+                </div>
+            </div>       
+            {% endfor %}
+        </div>
+        <div class='col-lg-2 top-value-picks'>
+            <h3>Top Value Centers</h3>
+            <div class='row'>
+                <div class='col-6'>
+                    <h6>Player</h6>
+                </div>
+                <div class='col-6'>
+                    <h6>Salary</h6>
+                </div>
+            </div>
+            
+            {% for player in cs %}
+            <div class='row top-value-row'>
+                <div class='col-6'>
+                    <h10>{{ player[5] + ' ' + player[6] }}</h10>
+                </div>
+                <div class='col-6'>
+                    <h10>{{ player[4] }}</h10>
+                </div>
+            </div>       
+            {% endfor %}
+        </div>
+    </div>
 </div>
 
 
