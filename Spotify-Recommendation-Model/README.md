@@ -39,3 +39,9 @@ A large discrepancy within the concantenated datset is the disparity between lik
 After preparing the data, the next step was to choose which classifier algorithm would best suit this problem. To compare each algorithm, the f1 score of each model was used to compare the accuracy of each model. These steps were conducted in this [jupyter notebook](https://github.com/Eric-Pacheco95/PersonalProjects/blob/master/Spotify-Recommendation-Model/Notebooks/Model_Creation.ipynb).
 
 Each model was paired with sklearn's GridSearchCV to find the optimal parameters for each algorithm. After testing Logistic Regression, Decision Tree Classifier, and XGBoost Classifier, the f1 scores were 0.77, 0.87, and 0.97 respectively. As a result the decided model to be used for this problem was the XGBoost Classifier model. 
+
+### Playlist Testing
+
+After creating the model, I applied a test case use for the model by collecting songs from popular spotify playlists, and eventually adding the favourite songs to a new playlist. The testing was applied in this [jupyter notebook](https://github.com/Eric-Pacheco95/PersonalProjects/blob/master/Spotify-Recommendation-Model/Notebooks/Playlist_Model_Testing.ipynb). The spotify playlist uri was taken from the spotify app. ![playlist_uri](Images/playlist_uri.png). 
+
+From this playlist uri, the track id of each song was taken and the audio track features and genre was then taken. After formatting the data correctly for each song, the model was then applied to determine favourite songs. A new spotify playlist was then created and the playlist_uri was retrieved via the same method as the original playlist. The track ids of favourite songs identified with at least 80% accuracy were added to this new playlist.
